@@ -10,21 +10,21 @@ const Gallery = () => {
       </div>
 
       <div className='flex flex-wrap gap-2'>
-        <Image src="" alt="" width={600} height={300}/>
-        <Image src="" alt="" width={300} height={300}/>
-        <Image src="" alt="" width={300} height={300}/>
+        <Image src="" alt="" width={600} height={250}/>
+        <Image src="" alt="" width={300} height={250}/>
+        <Image src="" alt="" width={300} height={250}/>
       </div>
 
       <div className='flex flex-wrap gap-2'>
-        <Image src="" alt="" width={300} height={300}/>
-        <Image src="" alt="" width={300} height={300}/>
-        <Image src="" alt="" width={600} height={300}/>
+        <Image src="" alt="" width={300} height={250}/>
+        <Image src="" alt="" width={300} height={250}/>
+        <Image src="" alt="" width={600} height={250}/>
       </div>
 
       <div className='flex flex-wrap gap-2'>
-        <Image src="" alt="" width={300} height={300}/>
-        <Image src="" alt="" width={600} height={300}/>
-        <Image src="" alt="" width={300} height={300}/>
+        <Image src="" alt="" width={300} height={250}/>
+        <Image src="" alt="" width={600} height={250}/>
+        <Image src="" alt="" width={300} height={250}/>
       </div>
 
       <div className='flex justify-end w-full'>
