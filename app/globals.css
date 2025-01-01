@@ -3,19 +3,124 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --beige: #E4DDCF;
+  --light-gray: #FAFAFA;
+  --deep-green: #00494d;
+  --teal: #495A54;
+  --green: #79887E;
+  --brown: #321A0C;
+  --charcoal: #333333;
+  --gold: #C08B00;
+  --coral: #D88E6C;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
+  color: var(--charcoal);
+  background: var(--beige);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.head{
+  color: var(--deep-green);
+}
+
+.head2{
+  color: var(--brown);
+}
+
+/* Navbar */
+li:hover{
+  color: var(--deep-green);
+}
+
+/* Hero Section */
+.bg1{
+  background: url("https://i.pinimg.com/736x/05/eb/c1/05ebc1c6e4a9821cf83b54a653f1a85d.jpg") no-repeat center center/cover;
+}
+
+/* Features Section */
+.card1{
+  background-color: var(--green);
+}
+
+.card1 p{
+  color: var(--light-gray);
+}
+
+.button2{
+  background-color: var(--deep-green);
+  color: var(--light-gray);
+}
+
+.button2:hover{
+  background-color: #006167;
+}
+
+/* Gallery Section */
+
+/* Benefits Section */
+.bg2{
+  background-color: var(--brown);
+  color: var(--beige);
+}
+.bg2 h1{
+  color: var(--light-gray);
+}
+.button3{
+  background-color: var(--coral);
+  color: var(--light-gray);
+}
+
+.button3:hover{
+  background-color: #e87f4e;
+}
+
+/* Testimonial Section */
+
+/* CTA */
+.bg4{
+  background-color: var(--teal);
+  color: var(--beige);
+}
+
+.bg4 h1{
+  color: var(--light-gray);
+}
+
+.button4{
+  background-color: var(--gold);
+  color: var(--beige);
+}
+
+.button4:hover{
+  background-color: #d19b15;
+}
+
+/* Contact Form */
+
+/* Footer */
+.bg3{
+  background-color: var(--charcoal);
+  color: var(--beige);
+}
+
+.social{
+  cursor: pointer;
+}
+
+.social:hover{
+  color: var(--coral);
+  border: 1px solid var(--coral);
+}
+
+.link li{
+  cursor: pointer;
+}
+
+.link li:hover{
+  color: var(--coral);
 }
