@@ -18,7 +18,7 @@ const ContactFull = () => {
       </div>
 
       {/* Text */}
-      <div className='flex flex-wrap justify-center items-start'>
+      <div className='flex flex-wrap md:flex-row flex-col-reverse justify-center md:items-start items-center'>
         <div className=' h-full md:w-1/2 w-[90%] md:px-10 md:py-4 p-2 md:text-lg text-base'>
           <p>We’re passionate about transforming ideas into stunning, functional spaces. Whether you’re looking to revamp a single room or reimagine an entire property, we’re here to help. Let’s start the journey to creating your perfect space—together.</p>
           <p className='my-2'>Ready to transform your space? <span className='text-[#c08b00]'>Call us today to schedule a personalized consultation</span> and let’s bring your vision to life!</p>

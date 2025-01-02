@@ -11,3 +11,12 @@ const Process = () => {
 }
 
 export default Process
+
+// Header: "How We Bring Your Vision to Life"
+// Content:
+// Our design process ensures your ideas are seamlessly translated into reality:
+
+// Consultation: We understand your needs, style, and budget.
+// Design Concept: Create sketches, 3D visualizations, and material samples.
+// Execution: Deliver your dream space with expert craftsmanship.
+// Final Touches: Adding decor elements to make it uniquely yours.

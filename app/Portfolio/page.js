@@ -9,8 +9,9 @@ import Future from '../components/Future'
 const page = () => {
   return (
     <div className='h-fit'>
-      <div className='h-screen flex justify-start items-end bg-red-600'>
-        <h1 className='md:text-6xl text-4xl mx-6 md:my-20 my-12'>Spaces That Speak Your Style</h1>
+      <div className='h-screen flex justify-start items-end bg2'>
+        <div className='absolute h-full md:w-[55%] w-[100%] bg-[#0000009e] z-[1]'></div>
+        <h1 className='md:text-6xl text-4xl mx-6 md:my-28 my-12 z-[2] bg-clip-text text-transparent'>Spaces That Speak Your Style</h1>
       </div>
 
       <div className='h-[50vh] flex flex-wrap'>
