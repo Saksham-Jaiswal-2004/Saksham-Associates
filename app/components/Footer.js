@@ -10,7 +10,7 @@ const Footer = () => {
     <div className='h-fit bg3 flex flex-col justify-center items-center'>
       <div className='flex flex-wrap w-full p-2'>
         <div className='flex flex-col md:w-1/3 w-[90%] my-5 justify-center items-center'>
-          <h1 className='md:text-3xl text-2xl my-5'>Saksham Associates</h1>
+          <h1 className='md:text-4xl text-2xl my-5 signature'>Saksham Associates</h1>
 
           <div className='flex gap-5 justify-start items-center md:text-4xl text-3xl'>
             <FaWhatsapp className='social rounded-full'/>

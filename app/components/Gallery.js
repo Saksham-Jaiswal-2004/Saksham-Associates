@@ -9,19 +9,19 @@ const Gallery = () => {
         <h1 className='text-6xl my-14 head2'>A Visual Journey: Explore Our Creations</h1>
       </div>
 
-      <div className='flex flex-wrap gap-2'>
+      <div className='flex flex-wrap gap-2 my-1'>
         <Image src="" alt="" width={600} height={250}/>
         <Image src="" alt="" width={300} height={250}/>
         <Image src="" alt="" width={300} height={250}/>
       </div>
 
-      <div className='flex flex-wrap gap-2'>
+      <div className='flex flex-wrap gap-2 my-1'>
         <Image src="" alt="" width={300} height={250}/>
         <Image src="" alt="" width={300} height={250}/>
         <Image src="" alt="" width={600} height={250}/>
       </div>
 
-      <div className='flex flex-wrap gap-2'>
+      <div className='flex flex-wrap gap-2 my-1'>
         <Image src="" alt="" width={300} height={250}/>
         <Image src="" alt="" width={600} height={250}/>
         <Image src="" alt="" width={300} height={250}/>
