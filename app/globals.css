@@ -69,6 +69,7 @@ li:hover{
 /* Hero Section */
 .bg1{
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://img.freepik.com/premium-photo/living-room-with-mix-bold-neutral-colors_861346-92379.jpg?w=1060") no-repeat center center/cover;
+  background-attachment: fixed;
 }
 
 /* Features Section */
@@ -109,18 +110,6 @@ li:hover{
 }
 
 /* Testimonial Section */
-.card2{
-  background-color: #D9ae96;
-  border-radius: 10px;
-  padding: 1em;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-.card2:hover{
-  background-color: var(--coral);
-}
-
 .swiper {
   width: 100%;
   height: 100%;
@@ -129,12 +118,17 @@ li:hover{
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #D9ae96;
-
-  /* Center slide text vertically */
+  /* background: #D9ae96; */
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: grey;
+  border-radius: 20px;
+  padding: 1em;
+}
+
+.swiper-slide:hover{
+  background-color: rgb(86, 86, 86);
 }
 
 .swiper-slide img {
@@ -142,6 +136,18 @@ li:hover{
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.swiper-button-prev::after{
+  color: #d9ae96;
+}
+
+.swiper-button-prev:hover .swiper-button-prev::after{
+  color: var(--coral);
+}
+
+.swiper-button-next::after{
+  color: #d9ae96;
 }
 
 /* CTA */
@@ -207,4 +213,20 @@ li:hover{
 /* About Hero */
 .darkTxt{
   color: var(--charcoal);
+}
+
+/* Projects */
+.card3{
+  background-color: var(--green);
+  height: 260px;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 1em;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card3:hover{
+  transform: scale(1.05);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
 }

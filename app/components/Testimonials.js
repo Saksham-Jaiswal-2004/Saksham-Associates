@@ -45,15 +45,15 @@ const Testimonials = () => {
             },
           }}
         >
-          <SwiperSlide>Slide 1</SwiperSlide>
-          <SwiperSlide>Slide 2</SwiperSlide>
-          <SwiperSlide>Slide 3</SwiperSlide>
-          <SwiperSlide>Slide 4</SwiperSlide>
-          <SwiperSlide>Slide 5</SwiperSlide>
-          <SwiperSlide>Slide 6</SwiperSlide>
-          <SwiperSlide>Slide 7</SwiperSlide>
-          <SwiperSlide>Slide 8</SwiperSlide>
-          <SwiperSlide>Slide 9</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 1</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 2</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 3</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 4</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 5</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 6</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 7</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 8</SwiperSlide>
+          <SwiperSlide className='card2'>Slide 9</SwiperSlide>
         </Swiper>
       </div>
     </div>

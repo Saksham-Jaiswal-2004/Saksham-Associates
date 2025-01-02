@@ -11,6 +11,10 @@ import Link from 'next/link'
 const page = () => {
   return (
     <div className='h-fit'>
+      <div className='h-screen flex justify-start items-end bg-red-600'>
+        <h1 className='md:text-6xl text-4xl mx-6 md:my-20 my-12'>Where Design Meets Inspiration</h1>
+      </div>
+
       <div className='h-screen flex flex-wrap'>
         <div className='md:w-1/2 w-full h-full p-8 flex flex-col justify-center items-start darkTxt'>
           <h1 className="text-4xl my-6 head">The Visionaries Behind Your Perfect Space</h1>

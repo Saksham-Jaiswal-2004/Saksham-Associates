@@ -21,9 +21,10 @@ const ContactFull = () => {
       <div className='flex flex-wrap justify-center items-start'>
         <div className=' h-full md:w-1/2 w-[90%] md:px-10 md:py-4 p-2 md:text-lg text-base'>
           <p>We’re passionate about transforming ideas into stunning, functional spaces. Whether you’re looking to revamp a single room or reimagine an entire property, we’re here to help. Let’s start the journey to creating your perfect space—together.</p>
+          <p className='my-2'>Ready to transform your space? <span className='text-[#c08b00]'>Call us today to schedule a personalized consultation</span> and let’s bring your vision to life!</p>
 
           <div className='flex justify-start items-center mt-4'>
-            <FaPhoneAlt /> - +91-9038415889
+            <FaPhoneAlt /> - +91-9038415889/ +91-9831793459
           </div>
 
           <div className='flex justify-start items-center mb-4'>
@@ -53,22 +54,22 @@ const ContactFull = () => {
             <div className='flex flex-col justify-start md:w-[65%] w-[80%]'>
 
               <div className='my-5 flex flex-col w-full'>
-                <label htmlFor="" className='text-lg py-1 head3'>Name</label>
-                <input type="text" placeholder='Enter your name' className='focus:outline-none focus:border-b'/>
+                <label htmlFor="name" className='text-lg py-1 head3'>Name</label>
+                <input name='name' type="text" placeholder='Enter your name' className='focus:outline-none focus:border-b' required/>
               </div>
 
               <div className='my-5 flex flex-col w-full'>
-                <label htmlFor="" className='text-lg py-1 head3'>Phone</label>
-                <PhoneInput defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeFlagClassName: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
+                <label htmlFor="phone" className='text-lg py-1 head3'>Phone</label>
+                <PhoneInput name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeFlagClassName: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
               </div>
 
               <div className='my-5 flex flex-col w-full'>
-                <label htmlFor="" className='text-lg py-1 head3'>Email</label>
-                <input type="email" name="" id="" placeholder='Enter your email-id' className='focus:outline-none focus:border-b'/>
+                <label htmlFor="email" className='text-lg py-1 head3'>Email</label>
+                <input type="email" name="email" id="" placeholder='Enter your email-id' className='focus:outline-none focus:border-b' required/>
               </div>
 
               <div className='my-5 flex flex-col w-full'>
-                <label htmlFor="" className='text-lg py-1 head3'>Query</label>
+                <label htmlFor="query" className='text-lg py-1 head3'>Query</label>
                 <textarea name="query" id="" placeholder='Enter your queries...' className='focus:outline-none focus:border-b'></textarea>
               </div>
 
