@@ -1,20 +1,19 @@
 import React from 'react'
-import Image from 'next/image';
 import Link from 'next/link'
 
 const Benefits = () => {
   return (
-    <div className='bg2 h-fit md:my-32 my-24 flex flex-col justify-center items-center'>
+    <div className='bg6 h-fit md:my-32 my-24 flex flex-col justify-center items-center'>
       <div className='w-full flex justify-start'>
         <h1 className='text-6xl my-10 head'>The Perks of Perfect Design</h1>
       </div>
 
       <div className='flex flex-wrap h-fit justify-center items-center gap-6 py-2'>
-        <div className='md:w-[49%] w-[90%] h-100%'>
-          {/* <Image src="" alt="" width={800} height={800}/> */}
-        </div>
+        {/* <div className='md:w-[49%] w-[90%] h-[550px] overflow-hidden'>
+          <img src="https://i.pinimg.com/736x/af/fe/72/affe72b9350fa3bab70b02edd294214b.jpg" alt="benefit" className='rounded-lg w-[800px] bg-red-500 h-[550px] object-cover'/>
+        </div> */}
 
-        <div className='md:w-[49%] w-[90%]'>
+        <div className='md:w-[60%] w-[90%]'>
           <div className='my-3'>
             <h1 className='md:text-2xl text-lg'>Enhanced Aesthetics</h1>
             <p className='text-base md:w-[80%]'>Transform your space into a visual masterpiece with designs that blend style and sophistication. We believe that beauty should be in every detail, from the smallest decor to the largest layout.</p>

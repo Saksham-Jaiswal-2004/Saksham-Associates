@@ -108,11 +108,12 @@ li:hover{
 /* Gallery Section */
 
 /* Benefits Section */
-.bg2{
-  background-color: var(--brown);
+.bg6{
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://cms.interiorcompany.com/wp-content/uploads/2024/02/the-vibrant-lively-mint-green-coral-colours-to-go-with-mint-green.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
   color: var(--beige);
 }
-.bg2 h1{
+.bg6 h1{
   color: var(--light-gray);
 }
 .button3{
