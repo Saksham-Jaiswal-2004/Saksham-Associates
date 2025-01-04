@@ -7,9 +7,9 @@ const Team = () => {
         <h1 className='md:text-5xl text-4xl my-14 head'>The Visionary Minds Behind Our Designs</h1>
       </div>
 
-      <div className='flex flex-wrap h-fit my-6 md:p-4 p-2'>
-        <div className='md:w-1/2 w-full'>
-          <img src="" alt="Sony Jaiswal" />
+      <div className='flex flex-wrap h-fit my-6 md:p-4 p-2 justify-center items-center'>
+        <div className='md:w-1/2 w-[80%] flex justify-center items-center my-4'>
+          <img src="https://plus.unsplash.com/premium_photo-1682430722549-3349282c0a73?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sony Jaiswal" className='w-[350px] h-auto rounded-xl'/>
         </div>
 
         <div className='md:w-1/2 w-full md:px-8 px-3'>
@@ -19,9 +19,9 @@ const Team = () => {
         </div>
       </div>
 
-      <div className='flex flex-wrap h-fit my-6 md:p-4 p-2 md:flex-row-reverse flex-row'>
-        <div className='md:w-1/2 w-full'>
-          <img src="" alt="Madhu Jaiswal" />
+      <div className='flex flex-wrap h-fit my-6 md:p-4 p-2 md:flex-row-reverse flex-row justify-center items-center'>
+        <div className='md:w-1/2 w-[80%] flex justify-center items-center my-4'>
+          <img src="https://plus.unsplash.com/premium_photo-1664477129473-35c28d5446f2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Madhu Jaiswal" className='w-[350px] h-auto rounded-xl'/>
         </div>
 
         <div className='md:w-1/2 w-full md:px-8 px-2'>

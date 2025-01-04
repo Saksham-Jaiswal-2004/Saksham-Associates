@@ -35,7 +35,7 @@ const Features = () => {
         </div>
       </div>
 
-      <div className='my-4 button2 px-3 py-2 rounded-xl text-xl'>
+      <div className='my-4 button2 px-3 md:py-2 py-1 rounded-xl md:text-xl text-base'>
         <Link href="#contact">Get Estimate</Link>
       </div>
     </div>

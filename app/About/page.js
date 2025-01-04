@@ -16,7 +16,7 @@ const page = () => {
         <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] head3'>Where Design Meets Inspiration</h1>
       </div>
 
-      <div className='h-screen flex flex-wrap'>
+      <div className='h-fit flex flex-wrap justify-center items-center'>
         <div className='md:w-1/2 w-full h-full p-8 flex flex-col justify-center items-start darkTxt'>
           <h1 className="text-4xl my-6 head">The Visionaries Behind Your Perfect Space</h1>
           <p className="text-lg">At Saksham Associates, we believe that every space tells a story. Our cutting-edge technology seamlessly blends design, functionality, and personalization to help you envision and organize your spaces like never before.</p>
@@ -28,7 +28,7 @@ const page = () => {
         </div>
 
         <div className='md:w-1/2 w-full flex justify-center items-center'>
-          <img src="" alt="About Image" />
+          <img src="https://i.pinimg.com/736x/74/99/9e/74999e6a2dfefa2a882f2e2289a0fa99.jpg" alt="About Image" className='object-cover bg-center brightness-90'/>
         </div>
       </div>
 

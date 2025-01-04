@@ -3,14 +3,14 @@ import Link from 'next/link'
 
 const AboutUs = () => {
   return (
-    <div className='h-fit md:my-20 my-12 flex flex-col justify-center items-center'>
+    <div className='h-fit md:my-28 my-12 flex flex-col justify-center items-center'>
       <div className='w-full flex justify-start'>
-        <h1 className='md:text-6xl text-4xl my-14 head'>About Our Company</h1>
+        <h1 className='md:text-6xl text-4xl my-6 head'>About Our Company</h1>
       </div>
 
       <div className='flex flex-wrap h-fit justify-center items-center'>
-        <div className='md:w-1/2 w-full'>
-          <img src="" alt="About Company" />
+        <div className='md:w-1/2 w-full px-10 py-14'>
+          <img src="https://ideogram.ai/assets/progressive-image/balanced/response/o3J4ZlJhRzqZiV5-AIp_VQ" alt="About Company" />
         </div>
 
         <div className='md:w-1/2 w-full p-8'>

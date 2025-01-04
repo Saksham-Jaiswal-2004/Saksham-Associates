@@ -8,16 +8,36 @@ const Services = () => {
       </div>
 
       <div className='md:w-[95%] w-100% h-fit'>
-        <div className='flex flex-wrap w-full items-center justify-center md:my-4 my-1'>
-            <img src="/images/service1.jpg" alt="Services Image" className='rounded-xl md:w-[35%] w-[65%] md:h-[250px] h-[150px] border md:m-2 m-1 object-cover'/>
-            <img src="/images/service2.jpeg" alt="Services Image" className='rounded-xl md:w-[22%] w-[30%] md:h-[250px] h-[150px] border md:m-2 m-1 object-cover'/>
-            <img src="/images/service3.webp" alt="Services Image" className='rounded-xl md:w-[22%] w-[45%] md:h-[250px] h-[150px] border md:m-2 m-1 object-cover'/>
-        {/* </div> */}
+        <div className='flex flex-wrap w-full items-center justify-center md:my-4 my-1 md:m-2 m-1 border'>
+          <div className='relative rounded-xl md:w-[35%] w-[65%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
+            <img src="/images/service1.jpg" alt="Services Image" className='image w-[100%] object-cover'/>
+            <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Residential</h1>
+          </div>  
 
-        {/* <div className='flex flex-wrap w-full items-center justify-center md:my-4 my-1'> */}
-            <img src="/images/service4.webp" alt="Services Image" className='rounded-xl md:w-[22%] w-[45%] md:h-[250px] h-[150px] border md:m-2 m-1 object-cover'/>
-            <img src="/images/service5.webp" alt="Services Image" className='rounded-xl md:w-[22%] w-[30%] md:h-[250px] h-[150px] border md:m-2 m-1 object-cover'/>
-            <img src="/images/service6.jpeg" alt="Services Image" className='rounded-xl md:w-[35%] w-[65%] md:h-[250px] h-[150px] border md:m-2 m-1 object-cover'/>
+          <div className='relative rounded-xl md:w-[22%] w-[30%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
+            <img src="/images/service2.jpeg" alt="Services Image" className='image w-[100%] object-cover'/>
+            <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Commercial</h1>
+          </div>  
+
+          <div className='relative rounded-xl md:w-[22%] w-[45%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
+            <img src="/images/service3.webp" alt="Services Image" className='image w-[100%] object-cover'/>
+            <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Hospitality</h1>
+          </div>  
+
+          <div className='relative rounded-xl md:w-[22%] w-[45%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
+            <img src="/images/service4.webp" alt="Services Image" className='image w-[100%] object-cover'/>
+            <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Restraunts & Cafes</h1>
+          </div>  
+
+          <div className='relative rounded-xl md:w-[22%] w-[30%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
+            <img src="/images/service5.webp" alt="Services Image" className='image w-[100%] object-cover'/>
+            <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Retail Stores</h1>
+          </div>  
+
+          <div className='relative rounded-xl md:w-[35%] w-[65%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
+            <img src="/images/service6.jpeg" alt="Services Image" className='image w-[100%] object-cover'/>
+            <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Factories</h1>
+          </div>
         </div>
       </div>
     </div>
