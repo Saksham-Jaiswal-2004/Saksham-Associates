@@ -41,7 +41,7 @@ const Benefits = () => {
           </div>
 
           <div className='w-full flex justify-end'>
-            <Link href="/" className='my-5 mx-3 button3 px-3 py-2 rounded-xl text-xl'>Get Free Quote</Link>
+            <Link href="#contact" className='my-5 mx-3 button3 px-3 py-2 rounded-xl text-xl'>Get Free Quote</Link>
           </div>
         </div>
       </div>

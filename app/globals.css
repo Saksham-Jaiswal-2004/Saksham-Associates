@@ -83,7 +83,7 @@ li:hover{
 
 /* Hero Section */
 .bg1{
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://img.freepik.com/premium-photo/living-room-with-mix-bold-neutral-colors_861346-92379.jpg?w=1060") no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/homeHero.avif") no-repeat center center/cover;
   background-attachment: fixed;
 }
 
@@ -243,6 +243,7 @@ li:hover{
   padding: 1em;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .card3:hover{

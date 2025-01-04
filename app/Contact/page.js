@@ -5,31 +5,33 @@ import 'react-phone-number-input/style.css';
 import Link from 'next/link'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import CTA from '../components/CTA'
+import Features from '../components/Features';
 
 const page = () => {
 
   const [phoneNumber, setPhoneNumber] = useState('');
 
   return (
-    <div className='h-fit my-10' id='contact'>
+    <div className='h-fit' id='contact'>
       {/* Title */}
-      <div className='w-full flex justify-start'>
-        <h1 className='text-6xl my-14 head'>We’d Love to Hear From You!"</h1>
+      <div className='h-screen flex justify-start items-end bg2'>
+        <div className='absolute h-full md:w-[55%] w-[100%] bg-[#0000009e] z-[1]'></div>
+        <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] bg-clip-text text-transparent'>We’d Love to Hear From You!</h1>
       </div>
 
       {/* Text */}
-      <div className='flex flex-wrap md:flex-row flex-col-reverse justify-center md:items-start items-center'>
-        <div className=' h-full md:w-1/2 w-[90%] md:px-10 md:py-4 p-2 md:text-lg text-base'>
-          <p>We’re passionate about transforming ideas into stunning, functional spaces. Whether you’re looking to revamp a single room or reimagine an entire property, we’re here to help. Let’s start the journey to creating your perfect space—together.</p>
-          <p className='my-2'>Ready to transform your space? <span className='text-[#c08b00]'>Call us today to schedule a personalized consultation</span> and let’s bring your vision to life!</p>
-          <p className='my-2'>Your perfect space is just a conversation away. Whether you’re envisioning a cozy retreat, a chic office, or a luxurious home, we’re here to bring it to life with creativity, precision, and passion.</p>
+      <div className='flex flex-wrap md:flex-row flex-col-reverse justify-center md:items-start items-center my-24'>
+        <div className=' h-full md:w-1/2 w-[90%] md:px-10 md:py-4 p-2'>
+          <h1 className='text-4xl my-10 head'>Get in Touch and Let’s Get Started</h1>
+          <p className='md:text-lg text-base'>We’re passionate about transforming ideas into stunning, functional spaces. Whether you’re looking to revamp a single room or reimagine an entire property, we’re here to help. Let’s start the journey to creating your perfect space—together.</p>
+          <p className='my-2 md:text-lg text-base'>Ready to transform your space? <span className='text-[#c08b00]'>Call us today to schedule a personalized consultation</span> and let’s bring your vision to life!</p>
+          <p className='my-2 md:text-lg text-base'>Your perfect space is just a conversation away. Whether you’re envisioning a cozy retreat, a chic office, or a luxurious home, we’re here to bring it to life with creativity, precision, and passion.</p>
 
-          <div className='flex justify-start items-center mt-4'>
+          <div className='flex justify-start items-center mt-4 md:text-lg text-base'>
             <FaPhoneAlt /> - +91-9038415889/ +91-9831793459
           </div>
 
-          <div className='flex justify-start items-center mb-4'>
+          <div className='flex justify-start items-center mb-4 md:text-lg text-base'>
             <MdEmail /> - sakshamassociates.jaiswal@gmail.com
           </div>
 
@@ -84,7 +86,7 @@ const page = () => {
         </div>
       </div>
 
-      <CTA/>
+      <Features/>
     </div>
   )
 }

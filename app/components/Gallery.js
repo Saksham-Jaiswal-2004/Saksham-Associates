@@ -28,7 +28,7 @@ const Gallery = () => {
       </div>
 
       <div className='flex justify-end w-full'>
-        <Link href="/" className='my-5 button2 px-3 py-2 rounded-xl text-xl'>See More</Link>
+        <Link href="/Portfolio" className='my-5 button2 px-3 py-2 rounded-xl text-xl'>See More</Link>
       </div>
     </div>
   )

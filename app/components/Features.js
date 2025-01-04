@@ -36,7 +36,7 @@ const Features = () => {
       </div>
 
       <div className='my-4 button2 px-3 py-2 rounded-xl text-xl'>
-        <Link href="/">Get Estimate</Link>
+        <Link href="#contact">Get Estimate</Link>
       </div>
     </div>
   )

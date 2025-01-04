@@ -39,8 +39,8 @@ const Navbar = () => {
           </ul>
   
           <div className='flex gap-4'>
-              <Link href="/" className='navButton px-3 py-1 rounded-xl'>Get Free Quote</Link>
-              <Link href="/" className='navButton px-3 py-1 rounded-xl'>Book Consultation</Link>
+              <Link href="#cta" className='navButton px-3 py-1 rounded-xl'>Get Free Quote</Link>
+              <Link href="/Contact" className='navButton px-3 py-1 rounded-xl'>Book Consultation</Link>
           </div>
         </div>
       </nav>

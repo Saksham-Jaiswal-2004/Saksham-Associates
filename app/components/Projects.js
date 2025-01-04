@@ -52,7 +52,7 @@ const Projects = () => {
       {/* Section 2 */}
       <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Luxury Villas</h1>
+          <h1 className='text-2xl my-6 mx-3 head'>Smart Workspaces</h1>
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-10'>
@@ -93,7 +93,7 @@ const Projects = () => {
       {/* Section 3 */}
       <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Contemporary Office Spaces</h1>
+          <h1 className='text-2xl my-6 mx-3 head'>Stylish Hotels</h1>
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-10'>
@@ -134,7 +134,7 @@ const Projects = () => {
       {/* Section 4 */}
       <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Chic Retail Stores</h1>
+          <h1 className='text-2xl my-6 mx-3 head'>Industrial Spaces</h1>
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-10'>
