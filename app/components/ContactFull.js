@@ -14,7 +14,7 @@ const ContactFull = () => {
     <div className='h-fit my-10' id='contact'>
       {/* Title */}
       <div className='w-full flex justify-start'>
-        <h1 className='text-6xl my-14 head'>Let’s Bring Your Dream Space to Life</h1>
+        <h1 className='md:text-6xl text-4xl my-14 head'>Let’s Bring Your Dream Space to Life</h1>
       </div>
 
       {/* Text */}

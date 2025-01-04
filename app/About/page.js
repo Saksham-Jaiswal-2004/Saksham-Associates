@@ -13,7 +13,7 @@ const page = () => {
     <div className='h-fit'>
       <div className='h-screen flex justify-start items-end bg2'>
         <div className='absolute h-full md:w-[60%] w-[100%] bg-[#0000009e] z-[1]'></div>
-        <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] bg-clip-text text-transparent'>Where Design Meets Inspiration</h1>
+        <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] head3'>Where Design Meets Inspiration</h1>
       </div>
 
       <div className='h-screen flex flex-wrap'>

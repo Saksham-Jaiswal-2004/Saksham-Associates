@@ -13,7 +13,7 @@ const Testimonials = () => {
   return (
     <div className='h-screen my-16 flex flex-col items-center'>
       <div className='w-full flex justify-start'>
-        <h1 className='text-6xl my-10 head'>Stories of Inspired Spaces</h1>
+        <h1 className='md:text-6xl text-4xl my-10 head'>Stories of Inspired Spaces</h1>
       </div>
 
       {/* <Carousel/> */}
@@ -46,63 +46,63 @@ const Testimonials = () => {
           }}
         >
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>
           </SwiperSlide>
           
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>
           </SwiperSlide>
 
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>
           </SwiperSlide>
 
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>
           </SwiperSlide>
 
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>
           </SwiperSlide>
 
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>
           </SwiperSlide>
 
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>
           </SwiperSlide>
 
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>
           </SwiperSlide>
 
           <SwiperSlide className='card2'>
-            <img src="" alt="Client" />
+            <img src="/images/client1.jpg" alt="Client" className="rounded-xl"/>
             <h1>Mr. ABCD EFGH</h1>
             <p className='text-sm italic text-[#d6cece] my-1'>Engineer</p>
             <p className='text-sm'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia obcaecati voluptatem accusantium dolorem repudiandae totam quae fugit, ab illum quia placeat ratione sed perferendis accusamus incidunt sunt, suscipit velit asperiores.</p>

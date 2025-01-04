@@ -16,7 +16,7 @@ const page = () => {
       {/* Title */}
       <div className='h-screen flex justify-start items-end bg2'>
         <div className='absolute h-full md:w-[55%] w-[100%] bg-[#0000009e] z-[1]'></div>
-        <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] bg-clip-text text-transparent'>We’d Love to Hear From You!</h1>
+        <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] head3'>We’d Love to Hear From You!</h1>
       </div>
 
       {/* Text */}
