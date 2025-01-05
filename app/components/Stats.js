@@ -30,7 +30,7 @@ const Stats = () => {
 
           <div className='flex flex-col justify-start items-center md:w-[16%] w-[48%] my-2'>
             <h1 className='md:text-3xl text-2xl font-bold'>10+</h1>
-            <h1 className='md:text-xl text-base'>Experience</h1>
+            <h1 className='md:text-xl text-base'>Years Experience</h1>
           </div>
 
           <div className='flex flex-col justify-start items-center md:w-[16%] w-[48%] my-2'>

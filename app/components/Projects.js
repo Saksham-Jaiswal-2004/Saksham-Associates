@@ -1,9 +1,14 @@
 import React from 'react'
 import Link from 'next/link'
+import { PROJECT1 } from '../constants'
+import { PROJECT2 } from '../constants'
+import { PROJECT3 } from '../constants'
+import { PROJECT4 } from '../constants'
+import { PROJECT5 } from '../constants'
 
 const Projects = () => {
   return (
-    <div className='h-fit md:my-32 my-24 flex flex-col justify-center items-center' id='projects'>
+    <div className='h-fit md:my-28 my-24 flex flex-col justify-center items-center' id='projects'>
       <div className='w-full flex justify-start'>
         <h1 className='text-5xl my-14 head'>Showcasing Versatility and Elegance</h1>
       </div>
@@ -16,37 +21,19 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="/images/service2.jpeg" alt="Project Image" className='w-[100%] image'/>
+          {PROJECT1.map((project, index) => (
+            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+              <div className='md:h-[320px] h-[140px] overflow-hidden'>
+                <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+              </div>
+  
+              <h1>{project.title}</h1>
+              <div className='flex px-1'>
+                <p>{project.title} |</p>
+                <p>{project.date}</p>
+              </div>
             </div>
-            {/* <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p> */}
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="/images/service2.jpeg" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="/images/service2.jpeg" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="/images/service2.jpeg" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
+          ))}
         </div>
 
         <div className='w-[95%] flex justify-end my-2 mx-1'>
@@ -61,37 +48,19 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
+          {PROJECT2.map((project, index) => (
+            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+              <div className='md:h-[320px] h-[140px] overflow-hidden'>
+                <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+              </div>
+  
+              <h1>{project.title}</h1>
+              <div className='flex px-1'>
+                <p>{project.title} |</p>
+                <p>{project.date}</p>
+              </div>
           </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
+          ))}
         </div>
 
         <div className='w-[95%] flex justify-end my-2 mx-1'>
@@ -106,37 +75,19 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
+          {PROJECT3.map((project, index) => (
+            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+              <div className='md:h-[320px] h-[140px] overflow-hidden'>
+                <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+              </div>
+  
+              <h1>{project.title}</h1>
+              <div className='flex px-1'>
+                <p>{project.title} |</p>
+                <p>{project.date}</p>
+              </div>
             </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
+          ))}
         </div>
 
         <div className='w-[95%] flex justify-end my-2 mx-1'>
@@ -151,37 +102,19 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
+          {PROJECT4.map((project, index) => (
+            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+              <div className='md:h-[320px] h-[140px] overflow-hidden'>
+                <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+              </div>
+  
+              <h1>{project.title}</h1>
+              <div className='flex px-1'>
+                <p>{project.title} |</p>
+                <p>{project.date}</p>
+              </div>
             </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
+          ))}
         </div>
 
         <div className='w-[95%] flex justify-end my-2 mx-1'>
@@ -196,37 +129,19 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
+          {PROJECT5.map((project, index) => (
+            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+              <div className='md:h-[320px] h-[140px] overflow-hidden'>
+                <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+              </div>
+  
+              <h1>{project.title}</h1>
+              <div className='flex px-1'>
+                <p>{project.title} |</p>
+                <p>{project.date}</p>
+              </div>
             </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
-
-          <div className='md:w-[22%] w-[48%] card3'>
-            <div>
-              <img src="" alt="Project Image" className='image'/>
-            </div>
-            <h1>Project Title</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur, eius!</p>
-          </div>
+          ))}
         </div>
 
         <div className='w-[95%] flex justify-end my-2 mx-1'>

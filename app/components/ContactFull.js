@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 import PhoneInput from 'react-phone-number-input';
+// const PhoneInput = dynamic(() => import('react-phone-number-input'), { ssr: false });
 import 'react-phone-number-input/style.css';
 import Link from 'next/link'
 import { FaPhoneAlt } from "react-icons/fa";
@@ -28,7 +29,9 @@ const ContactFull = () => {
           </div>
 
           <div className='flex justify-start items-center mb-4'>
-            <MdEmail /> - sakshamassociates.jaiswal@gmail.com
+            <a href="mailto:admin@sakshamassociates.in" className='flex justify-center items-center gap-1 text-[#4e4e4e] hover:text-[#333333]'>
+              <MdEmail /> - admin@sakshamassociates.in
+            </a>
           </div>
 
           <div className="md:h-[400px] h-[250px] w-[100%]">
@@ -60,7 +63,7 @@ const ContactFull = () => {
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="phone" className='text-lg py-1 head3'>Phone</label>
-                <PhoneInput name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeFlagClassName: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
+                <PhoneInput name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
               </div>
 
               <div className='my-5 flex flex-col w-full'>
