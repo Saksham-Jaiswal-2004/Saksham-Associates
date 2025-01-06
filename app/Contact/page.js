@@ -64,7 +64,7 @@ const page = () => {
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="phone" className='text-lg py-1 head3'>Phone</label>
-                <PhoneInput name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeFlagClassName: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
+                <PhoneInput name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
               </div>
 
               <div className='my-5 flex flex-col w-full'>
