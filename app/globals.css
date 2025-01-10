@@ -263,3 +263,9 @@ li:hover{
   transform: scale(1.05);
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
 }
+
+/* Individual Testimonials */
+.testimonial{
+  background-color: #00494d;
+  color: var(--light-gray);
+}

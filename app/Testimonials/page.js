@@ -1,9 +1,11 @@
 import React from 'react'
 import Stats from '../components/Stats'
 import CTA from '../components/CTA'
+import Link from 'next/link'
+import testimonials from "../constants/testimonials.json";
 import { Star, StarHalf } from 'lucide-react';
 
-const Testimonial = ({ author, rating, content, role }) => {
+const Testimonial = ({id, author, rating, content, role }) => {
   // Convert rating to number of full and half stars
   const fullStars = Math.floor(rating);
   const hasHalfStar = rating % 1 >= 0.5;
@@ -11,6 +13,7 @@ const Testimonial = ({ author, rating, content, role }) => {
 
   return (
     <div className="card1 hover:bg-[#5a695f] rounded-xl p-6 shadow-md md:w-[32%] w-[98%]">
+      <Link href={`Testimonials/${id}`}>
       <div className="flex items-center mb-4">
         {/* Render full stars */}
         {[...Array(fullStars)].map((_, i) => (
@@ -28,7 +31,7 @@ const Testimonial = ({ author, rating, content, role }) => {
         ))}
         
         <span className="ml-2 text-[#d8d7d7]">
-          {rating.toFixed(1)}
+          {/* {rating.toFixed(1)} */}
         </span>
       </div>
       
@@ -46,87 +49,14 @@ const Testimonial = ({ author, rating, content, role }) => {
           </span>
         )}
       </div>
+
+      </Link>
     </div>
   );
 };
 
 
 const page = () => {
-
-  const testimonials = [
-    {
-      author: "Sarah Johnson",
-      role: "Marketing Director",
-      rating: 5,
-      content: "Absolutely fantastic service! The team went above and beyond our expectations."
-    },
-    {
-      author: "Mike Chen",
-      role: "Tech Lead",
-      rating: 4.5,
-      content: "Great experience working with them. Very professional and responsive."
-    },
-    {
-      author: "Sarah Johnson",
-      role: "Marketing Director",
-      rating: 5,
-      content: "Absolutely fantastic service! The team went above and beyond our expectations."
-    },
-    {
-      author: "Mike Chen",
-      role: "Tech Lead",
-      rating: 4.5,
-      content: "Great experience working with them. Very professional and responsive."
-    },
-    {
-      author: "Sarah Johnson",
-      role: "Marketing Director",
-      rating: 5,
-      content: "Absolutely fantastic service! The team went above and beyond our expectations."
-    },
-    {
-      author: "Mike Chen",
-      role: "Tech Lead",
-      rating: 4.5,
-      content: "Great experience working with them. Very professional and responsive."
-    },
-    {
-      author: "Sarah Johnson",
-      role: "Marketing Director",
-      rating: 5,
-      content: "Absolutely fantastic service! The team went above and beyond our expectations."
-    },
-    {
-      author: "Mike Chen",
-      role: "Tech Lead",
-      rating: 4.5,
-      content: "Great experience working with them. Very professional and responsive."
-    },
-    {
-      author: "Sarah Johnson",
-      role: "Marketing Director",
-      rating: 5,
-      content: "Absolutely fantastic service! The team went above and beyond our expectations."
-    },
-    {
-      author: "Mike Chen",
-      role: "Tech Lead",
-      rating: 4.5,
-      content: "Great experience working with them. Very professional and responsive."
-    },
-    {
-      author: "Sarah Johnson",
-      role: "Marketing Director",
-      rating: 5,
-      content: "Absolutely fantastic service! The team went above and beyond our expectations."
-    },
-    {
-      author: "Mike Chen",
-      role: "Tech Lead",
-      rating: 4.5,
-      content: "Great experience working with them. Very professional and responsive."
-    },
-  ];
 
   return (
     <div className='h-fit'>
@@ -139,10 +69,7 @@ const page = () => {
         <h2 className="md:text-6xl text-4xl font-bold mb-6 my-10">Words That Inspire Us</h2>
         <div className="space-y-6 flex flex-wrap justify-center items-center my-10 md:gap-6 gap-1 md:p-8 p-1">
           {testimonials.map((testimonial, index) => (
-            <Testimonial
-              key={index}
-              {...testimonial}
-            />
+              <Testimonial key={index} {...testimonial}/>
           ))}
         </div>
       </div>
