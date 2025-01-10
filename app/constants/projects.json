@@ -1,0 +1,802 @@
+[
+    {
+        "id": "homeProject1",
+        "title": "Home Project Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "/images/service.jpeg",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject2",
+        "title": "Home Project Title 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject3",
+        "title": "Home Project Title 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject4",
+        "title": "Home Project Title 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject5",
+        "title": "Home Project Title 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject6",
+        "title": "Home Project Title 6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject7",
+        "title": "Home Project Title 7",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject8",
+        "title": "Home Project Title 8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject9",
+        "title": "Home Project Title 9",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject10",
+        "title": "Home Project Title 10",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject11",
+        "title": "Home Project Title 11",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject12",
+        "title": "Home Project Title 12",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject13",
+        "title": "Home Project Title 13",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject14",
+        "title": "Home Project Title 14",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject15",
+        "title": "Home Project Title 15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject16",
+        "title": "Home Project Title 16",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject17",
+        "title": "Home Project Title 17",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject18",
+        "title": "Home Project Title 18",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject19",
+        "title": "Home Project Title 19",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "homeProject20",
+        "title": "Home Project Title 20",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject1",
+        "title": "Commercial Project Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "/images/service.jpeg",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject2",
+        "title": "Commercial Project Title 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject3",
+        "title": "Commercial Project Title 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject4",
+        "title": "Commercial Project Title 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject5",
+        "title": "Commercial Project Title 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject6",
+        "title": "Commercial Project Title 6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject7",
+        "title": "Commercial Project Title 7",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject8",
+        "title": "Commercial Project Title 8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject9",
+        "title": "Commercial Project Title 9",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject10",
+        "title": "Commercial Project Title 10",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject11",
+        "title": "Commercial Project Title 11",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject12",
+        "title": "Commercial Project Title 12",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject13",
+        "title": "Commercial Project Title 13",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject14",
+        "title": "Commercial Project Title 14",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject15",
+        "title": "Commercial Project Title 15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject16",
+        "title": "Home Project Title 16",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject17",
+        "title": "Commercial Project Title 17",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject18",
+        "title": "Commercial Project Title 18",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject19",
+        "title": "Commercial Project Title 19",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "commercialProject20",
+        "title": "Commercial Project Title 20",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject1",
+        "title": "Hospitality Project Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "/images/service.jpeg",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject2",
+        "title": "Hospitality Project Title 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject3",
+        "title": "Hospitality Project Title 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject4",
+        "title": "Hospitality Project Title 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject5",
+        "title": "Hospitality Project Title 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject6",
+        "title": "Hospitality Project Title 6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject7",
+        "title": "Hospitality Project Title 7",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject8",
+        "title": "Hospitality Project Title 8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject9",
+        "title": "Hospitality Project Title 9",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject10",
+        "title": "Hospitality Project Title 10",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject11",
+        "title": "Hospitality Project Title 11",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject12",
+        "title": "Hospitality Project Title 12",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject13",
+        "title": "Hospitality Project Title 13",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject14",
+        "title": "Hospitality Project Title 14",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject15",
+        "title": "Hospitality Project Title 15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject16",
+        "title": "Hospitality Project Title 16",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject17",
+        "title": "Hospitality Project Title 17",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject18",
+        "title": "Hospitality Project Title 18",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject19",
+        "title": "Hospitality Project Title 19",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "hospitalityProject20",
+        "title": "Hospitality Project Title 20",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject1",
+        "title": "Retail Project Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "/images/service.jpeg",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject2",
+        "title": "Retail Project Title 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject3",
+        "title": "Retail Project Title 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject4",
+        "title": "Retail Project Title 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject5",
+        "title": "Retail Project Title 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject6",
+        "title": "Retail Project Title 6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject7",
+        "title": "Retail Project Title 7",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject8",
+        "title": "Retail Project Title 8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject9",
+        "title": "Retail Project Title 9",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject10",
+        "title": "Retail Project Title 10",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject11",
+        "title": "Retail Project Title 11",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject12",
+        "title": "Retail Project Title 12",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject13",
+        "title": "Retail Project Title 13",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject14",
+        "title": "Retail Project Title 14",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject15",
+        "title": "Retail Project Title 15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject16",
+        "title": "Retail Project Title 16",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject17",
+        "title": "Retail Project Title 17",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject18",
+        "title": "Retail Project Title 18",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject19",
+        "title": "Retail Project Title 19",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "retailProject20",
+        "title": "Retail Project Title 20",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject1",
+        "title": "Factories Project Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "/images/service.jpeg",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject2",
+        "title": "Factories Project Title 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject3",
+        "title": "Factories Project Title 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject4",
+        "title": "Factories Project Title 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject5",
+        "title": "Factories Project Title 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject6",
+        "title": "Factories Project Title 6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject7",
+        "title": "Factories Project Title 7",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject8",
+        "title": "Factories Project Title 8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject9",
+        "title": "Factories Project Title 9",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject10",
+        "title": "Factories Project Title 10",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject11",
+        "title": "Factories Project Title 11",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject12",
+        "title": "Factories Project Title 12",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject13",
+        "title": "Factories Project Title 13",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject14",
+        "title": "Factories Project Title 14",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject15",
+        "title": "Factories Project Title 15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject16",
+        "title": "Factories Project Title 16",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject17",
+        "title": "Factories Project Title 17",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject18",
+        "title": "Factories Project Title 18",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject19",
+        "title": "Factories Project Title 19",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "factoriesProject20",
+        "title": "Factories Project Title 20",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    }
+]

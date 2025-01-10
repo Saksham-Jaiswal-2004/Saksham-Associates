@@ -64,24 +64,28 @@ export const TESTIMONIALS = [
 
 export const PROJECT1 = [
     {
+        id: "homeProject1",
         image: service1,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "homeProject2",
         image: service1,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "homeProject3",
         image: service1,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "homeProject4",
         image: service1,
         title: "Project Title",
         type: "Project Type",
@@ -91,24 +95,28 @@ export const PROJECT1 = [
 
 export const PROJECT2 = [
     {
+        id: "commercialProject1",
         image: service2,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "commercialProject2",
         image: service2,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "commercialProject3",
         image: service2,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "commercialProject4",
         image: service2,
         title: "Project Title",
         type: "Project Type",
@@ -118,24 +126,28 @@ export const PROJECT2 = [
 
 export const PROJECT3 = [
     {
+        id: "hospitalityProject1",
         image: service3,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "hospitalityProject2",
         image: service3,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "hospitalityProject3",
         image: service3,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "hospitalityProject4",
         image: service3,
         title: "Project Title",
         type: "Project Type",
@@ -145,24 +157,28 @@ export const PROJECT3 = [
 
 export const PROJECT4 = [
     {
+        id: "retailProject1",
         image: service4,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "retailProject2",
         image: service4,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "retailProject3",
         image: service4,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "retailProject4",
         image: service4,
         title: "Project Title",
         type: "Project Type",
@@ -172,24 +188,28 @@ export const PROJECT4 = [
 
 export const PROJECT5 = [
     {
+        id: "factoriesProject1",
         image: service5,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "factoriesProject2",
         image: service5,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "factoriesProject3",
         image: service5,
         title: "Project Title",
         type: "Project Type",
         date: "Date",
     },
     {
+        id: "factoriesProject4",
         image: service5,
         title: "Project Title",
         type: "Project Type",

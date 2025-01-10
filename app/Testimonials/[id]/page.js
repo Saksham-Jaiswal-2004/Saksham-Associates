@@ -21,7 +21,6 @@ export default function TestimonialPage({ params }) {
        <p className="italic my-4">"{testimonial.role}"</p>
        <p className="italic my-4">"{testimonial.rating}"</p>
        <p className="italic my-4">"{testimonial.content}"</p>
-       {/* <p className="text-gray-500">{testimonial.id}</p> */}
        <p className="text-gray-500">{testimonial.date}</p>
       </div>
     </div>
