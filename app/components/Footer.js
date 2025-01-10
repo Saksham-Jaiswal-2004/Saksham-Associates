@@ -13,11 +13,11 @@ const Footer = () => {
           <h1 className='md:text-4xl text-2xl my-5 signature'>Saksham Associates</h1>
 
           <div className='flex gap-5 justify-start items-center md:text-4xl text-3xl'>
-            <FaWhatsapp className='social rounded-full'/>
-            <FaInstagram className='social rounded-full'/>
-            <CiLinkedin className='social rounded-full'/>
-            <AiOutlinePinterest className='social rounded-full'/>
-            <FaHouzz className='social rounded-full border'/>
+            <a href="https://wa.me/919038415889" target="_blank" rel="noopener noreferrer"><FaWhatsapp className='social rounded-full'/></a>
+            <a href="https://www.instagram.com/sakshamassociates/" target="_blank" rel="noopener noreferrer"><FaInstagram className='social rounded-full'/></a>
+            <a href="https://" target="_blank" rel="noopener noreferrer"><CiLinkedin className='social rounded-full'/></a>
+            <a href="https://in.pinterest.com/saksham_associates/" target="_blank" rel="noopener noreferrer"><AiOutlinePinterest className='social rounded-full'/></a>
+            <a href="https://www.houzz.com/pro/sakshamassociates" target="_blank" rel="noopener noreferrer"><FaHouzz className='social rounded-full border'/></a>
           </div>
         </div>
 
