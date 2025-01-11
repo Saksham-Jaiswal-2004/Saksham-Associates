@@ -2,7 +2,7 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <div className='h-fit md:my-32 my-24 flex flex-col justify-center items-center'>
+    <div className='h-fit md:my-32 my-24 flex flex-col justify-center items-center' id='stats'>
       <div className='w-full flex justify-start'>
         <h1 className='md:text-5xl text-4xl my-14 head'>Our Milestones: <br/>Crafted with Passion, Delivered with Excellence</h1>
       </div>

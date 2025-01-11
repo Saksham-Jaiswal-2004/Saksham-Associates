@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Benefits = () => {
   return (
-    <div className='bg6 h-fit md:my-32 my-24 flex flex-col justify-center items-center'>
+    <div className='bg6 h-fit md:my-32 my-24 flex flex-col justify-center items-center' id='benefits'>
       <div className='w-full flex justify-start'>
         <h1 className='md:text-6xl text-4xl my-10 head'>The Perks of Perfect Design</h1>
       </div>

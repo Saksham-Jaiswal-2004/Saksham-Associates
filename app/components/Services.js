@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Services = () => {
   return (
-    <div className='h-fit md:my-32 my-24 flex flex-col items-center'>
+    <div className='h-fit md:my-32 my-24 flex flex-col items-center' id='services'>
       <div className='w-full flex justify-start'>
         <h1 className='md:text-6xl text-4xl my-10 head'>Crafting Dreams, One Space at a Time</h1>
       </div>

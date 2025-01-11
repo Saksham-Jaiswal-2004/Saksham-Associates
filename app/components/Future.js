@@ -2,7 +2,7 @@ import React from 'react'
 
 const Future = () => {
   return (
-    <div className='h-fit md:my-32 my-24 flex flex-col items-center'>
+    <div className='h-fit md:my-32 my-24 flex flex-col items-center' id='future'>
       <div className='w-full flex justify-start'>
         <h1 className='text-5xl md:my-14 my-6 head'>Designing for Tomorrow</h1>
       </div>

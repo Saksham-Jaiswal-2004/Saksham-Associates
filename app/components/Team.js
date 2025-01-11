@@ -2,7 +2,7 @@ import React from 'react'
 
 const Team = () => {
   return (
-    <div className='h-fit md:my-32 my-24 flex flex-col justify-center items-center'>
+    <div className='h-fit md:my-32 my-24 flex flex-col justify-center items-center' id='founders'>
       <div className='w-full flex justify-start'>
         <h1 className='md:text-5xl text-4xl my-14 head'>The Visionary Minds Behind Our Designs</h1>
       </div>
