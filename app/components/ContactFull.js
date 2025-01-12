@@ -13,10 +13,45 @@ const ContactFull = () => {
   const [phoneNumber, setPhoneNumber] = useState('');
   const [status, setStatus] = useState("");
 
+  // Input Fields upadte function
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Google Sheet Integration
+  const submitToGoogleSheet = async () => {
+    const data = {
+      name: formData.name,
+      phone: phoneNumber,
+      email: formData.email,
+      message: formData.message,
+    };
+
+    // console.log(data);
+  
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbzg82p47_mSJ0jdxuCuPpSwrXxMzUO4FWEoenhFl6y-Q2cFz1qFW1KeBlSeWlk27Vb6/exec",
+        {
+          method: "POST",
+          mode: "no-cors",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(data),
+        }
+      );
+  
+      if (response.status === 200) {
+        // alert("Form submitted successfully!");
+      } else {
+        // alert("Failed to submit the form to Google Sheets.");
+      }
+    } catch (error) {
+      // console.error("Google Sheet Error:", error);
+      // alert("Error submitting the form.");
+    }
+  };
+
+  // Firebase Integration
   const submitQuery = async (e) => {
     e.preventDefault(); // Prevent the default form submission behavior
 
@@ -42,6 +77,7 @@ const ContactFull = () => {
     }
   };
 
+  // Email.js Integration
   const sendEmail = async (e) => {
     e.preventDefault(); // Prevent the default form submission
 
@@ -61,6 +97,7 @@ const ContactFull = () => {
     }
   };
 
+  // Email.js Integration
   const sendEmailSelf = async (e) => {
     e.preventDefault(); // Prevent the default form submission
 
@@ -80,20 +117,20 @@ const ContactFull = () => {
     }
   };
 
+  // Handling Submit functions
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Ensure email is sent first, then submit query
-    console.log("Form Current: ",form.current);
-    console.log("Form Data: ",formData);
     await sendEmail(e);  // Call the email sending function
     await sendEmailSelf(e);  // Call the email sending function
     await submitQuery(e); // Call the submission function
+    await submitToGoogleSheet(e); // Call the Google Sheet Submission function
 
     // Optionally reset the form after successful submission
     handleReset();
   };
 
+  // Handling Reset option
   const handleReset = () => {
     setFormData({
       name: '',
@@ -142,7 +179,7 @@ const ContactFull = () => {
 
         {/* Contact Form */}
         <div className='md:w-1/2 w-[95%] flex flex-col justify-center items-center'>
-          <form ref={form} action="" onSubmit={handleSubmit} className='flex flex-col justify-center items-center md:w-4/5 w-full bg5 md:mx-10 mx-1 my-2 rounded-xl md:p-8 p-2'>
+          <form ref={form} method='POST' action="" id='contact-form' onSubmit={handleSubmit} className='flex flex-col justify-center items-center md:w-4/5 w-full bg5 md:mx-10 mx-1 my-2 rounded-xl md:p-8 p-2'>
             <div>
               <h1 className='text-3xl my-4'>Let's Get Connected</h1>
             </div>
