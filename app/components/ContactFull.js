@@ -1,15 +1,108 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from 'emailjs-com';
 import PhoneInput from 'react-phone-number-input';
-// const PhoneInput = dynamic(() => import('react-phone-number-input'), { ssr: false });
 import 'react-phone-number-input/style.css';
-import Link from 'next/link'
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const ContactFull = () => {
 
+  const form = useRef();
+  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [phoneNumber, setPhoneNumber] = useState('');
+  const [status, setStatus] = useState("");
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const submitQuery = async (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
+
+    const formDataWithPhone = { ...formData, phone: phoneNumber };
+
+    try {
+      const res = await fetch("/api/saveContact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formDataWithPhone),
+      });
+
+      if (res.ok) {
+        alert("Message sent successfully!");
+        setFormData({ name: "", email: "", message: "" });
+        setPhoneNumber("");
+      } else {
+        alert("Failed to send message!");
+      }
+    } catch (error) {
+      alert("Error occurred while sending the message!");
+      console.error(error);
+    }
+  };
+
+  const sendEmail = async (e) => {
+    e.preventDefault(); // Prevent the default form submission
+
+    try {
+      // Sending email using EmailJS without storing the result
+      await emailjs.sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+        form.current,
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID,
+      );
+
+      setStatus("Email sent successfully!");
+    } catch (error) {
+      console.error("Failed to send email:", error);
+      setStatus("Failed to send email. Please try again later.");
+    }
+  };
+
+  const sendEmailSelf = async (e) => {
+    e.preventDefault(); // Prevent the default form submission
+
+    try {
+      // Sending email using EmailJS without storing the result
+      await emailjs.sendForm(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID_2,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID_2,
+        form.current,
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID_2,
+      );
+
+      setStatus("Email sent successfully!");
+    } catch (error) {
+      console.error("Failed to send email:", error);
+      setStatus("Failed to send email. Please try again later.");
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Ensure email is sent first, then submit query
+    console.log("Form Current: ",form.current);
+    console.log("Form Data: ",formData);
+    await sendEmail(e);  // Call the email sending function
+    await sendEmailSelf(e);  // Call the email sending function
+    await submitQuery(e); // Call the submission function
+
+    // Optionally reset the form after successful submission
+    handleReset();
+  };
+
+  const handleReset = () => {
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    });
+
+    setPhoneNumber('');
+  };
 
   return (
     <div className='h-fit my-10' id='contact'>
@@ -49,7 +142,7 @@ const ContactFull = () => {
 
         {/* Contact Form */}
         <div className='md:w-1/2 w-[95%] flex flex-col justify-center items-center'>
-          <form action="" className='flex flex-col justify-center items-center md:w-4/5 w-full bg5 md:mx-10 mx-1 my-2 rounded-xl md:p-8 p-2'>
+          <form ref={form} action="" onSubmit={handleSubmit} className='flex flex-col justify-center items-center md:w-4/5 w-full bg5 md:mx-10 mx-1 my-2 rounded-xl md:p-8 p-2'>
             <div>
               <h1 className='text-3xl my-4'>Let's Get Connected</h1>
             </div>
@@ -58,27 +151,27 @@ const ContactFull = () => {
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="name" className='text-lg py-1 head3'>Name</label>
-                <input name='name' type="text" placeholder='Enter your name' className='focus:outline-none focus:border-b' required/>
+                <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} placeholder='Enter your name' className='focus:outline-none focus:border-b' required/>
               </div>
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="phone" className='text-lg py-1 head3'>Phone</label>
-                <PhoneInput name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
+                <PhoneInput id='phone' name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
               </div>
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="email" className='text-lg py-1 head3'>Email</label>
-                <input type="email" name="email" id="" placeholder='Enter your email-id' className='focus:outline-none focus:border-b' required/>
+                <input type="email" id='email' name="email" value={formData.email} onChange={handleChange} placeholder='Enter your email-id' className='focus:outline-none focus:border-b' required/>
               </div>
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="query" className='text-lg py-1 head3'>Query</label>
-                <textarea name="query" id="" placeholder='Enter your queries...' className='focus:outline-none focus:border-b'></textarea>
+                <textarea id='message' name="message" value={formData.message} onChange={handleChange} placeholder='Enter your queries...' className='focus:outline-none focus:border-b' required></textarea>
               </div>
 
               <div className='flex flex-wrap w-full justify-end gap-4'>
-                <button className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Submit</button>
-                <button className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Reset</button>
+                <button type='submit' className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Submit</button>
+                <button type='reset' onClick={handleReset} className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Reset</button>
               </div>
             </div>
           </form>

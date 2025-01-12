@@ -1,8 +1,8 @@
 import CTA from "@/app/components/CTA";
 import projects from "../../constants/projects.json";
 
-export default function ProjectPage({ params }) {
-  const { id } = params;
+export default async function ProjectPage({ params }) {
+  const { id } = await params;
 
   const project = projects.find((item) => String(item.id) === id);
 

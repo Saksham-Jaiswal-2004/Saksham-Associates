@@ -1,7 +1,7 @@
 import testimonials from "../../constants/testimonials.json";
 
-export default function TestimonialPage({ params }) {
-  const { id } = params;
+export default async function TestimonialPage({ params }) {
+  const { id } = await params;
 
   const testimonial = testimonials.find((item) => String(item.id) === id);
 
