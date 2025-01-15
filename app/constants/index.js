@@ -4,6 +4,7 @@ const service2 = "/images/service3.webp";
 const service3 = "/images/service4.webp";
 const service4 = "/images/service5.webp";
 const service5 = "/images/service6.jpeg";
+const service6 = "/images/service7.jpeg";
 
 export const TESTIMONIALS = [
     {
@@ -211,6 +212,37 @@ export const PROJECT5 = [
     {
         id: "factoriesProject4",
         image: service5,
+        title: "Project Title",
+        type: "Project Type",
+        date: "Date",
+    },
+]
+
+export const PROJECT6 = [
+    {
+        id: "cafesProject1",
+        image: service6,
+        title: "Project Title",
+        type: "Project Type",
+        date: "Date",
+    },
+    {
+        id: "cafesProject2",
+        image: service6,
+        title: "Project Title",
+        type: "Project Type",
+        date: "Date",
+    },
+    {
+        id: "cafesProject3",
+        image: service6,
+        title: "Project Title",
+        type: "Project Type",
+        date: "Date",
+    },
+    {
+        id: "cafesProject4",
+        image: service6,
         title: "Project Title",
         type: "Project Type",
         date: "Date",

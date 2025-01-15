@@ -111,10 +111,10 @@ const Navbar = () => {
       </nav>
 
       {/* <div ref={divRef} className={`fixed top-0 left-0 w-fit h-full backdrop-blur-md text-white flex flex-col items-center justify-center space-y-8 text-2xl transition-transform duration-300 z-40 ${isOpen ? `translate-x-[-${screenWidth - divWidth}px]` : "translate-x-[100vw]"}`}> */}
-      <div ref={divRef} className={`fixed p-4 z-[100] top-0 left-0 w-fit h-full backdrop-blur-md text-white flex flex-col items-center justify-center space-y-8 text-2xl transition-transform duration-300 z-40"}`}  style={{transform: isOpen ? `translateX(${screenWidth - divWidth - 10}px)` : `translateX(${screenWidth}px)`,}}>
+      <div ref={divRef} className={`fixed p-4 z-[100] top-0 left-0 w-fit h-full backdrop-blur-md text-white flex flex-col items-center justify-start space-y-8 text-2xl transition-transform duration-300 z-40"}`}  style={{transform: isOpen ? `translateX(${screenWidth - divWidth - 10}px)` : `translateX(${screenWidth}px)`,}}>
         {/* <button className="absolute top-4 right-4 text-3xl focus:outline-none"onClick={() => setIsOpen(false)}aria-label="Close Menu">✖</button> */}
 
-        <ul className='flex flex-col justify-center text-lg items-center gap-4'>
+        <ul className='flex flex-col justify-center mt-14 text-lg items-start gap-4'>
           <li><Link href="/">Home</Link></li>
           <li><Link href="/Portfolio">Projects</Link></li>
           <li><Link href="/About">About</Link></li>

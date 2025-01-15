@@ -798,5 +798,165 @@
         "image": "",
         "features": ["Feature 1", "Feature 2", "Feature 3"],
         "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject1",
+        "title": "Restaurants & Cafes Project Title 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "/images/service.jpeg",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject2",
+        "title": "Restaurants & Cafes Project Title 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject3",
+        "title": "Restaurants & Cafes Project Title 3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject4",
+        "title": "Restaurants & Cafes Project Title 4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject5",
+        "title": "Restaurants & Cafes Project Title 5",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject6",
+        "title": "Restaurants & Cafes Project Title 6",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject7",
+        "title": "Restaurants & Cafes Project Title 7",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject8",
+        "title": "Restaurants & Cafes Project Title 8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject9",
+        "title": "Restaurants & Cafes Project Title 9",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject10",
+        "title": "Restaurants & Cafes Project Title 10",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject11",
+        "title": "Restaurants & Cafes Project Title 11",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject12",
+        "title": "Restaurants & Cafes Project Title 12",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject13",
+        "title": "Restaurants & Cafes Project Title 13",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject14",
+        "title": "Restaurants & Cafes Project Title 14",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject15",
+        "title": "Restaurants & Cafes Project Title 15",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject16",
+        "title": "Restaurants & Cafes Project Title 16",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject17",
+        "title": "Restaurants & Cafes Project Title 17",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject18",
+        "title": "Restaurants & Cafes Project Title 18",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject19",
+        "title": "Restaurants & Cafes Project Title 19",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
+    },
+    {
+        "id": "cafesProject20",
+        "title": "Restaurants & Cafes Project Title 20",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur arcu at viverra accumsan. Duis malesuada urna ut mi porta posuere. Morbi eleifend libero ac pretium accumsan. In eu mi vel dolor dictum blandit. Duis pulvinar ac risus quis eleifend. Suspendisse id turpis sit amet neque varius elementum vestibulum et augue. Sed sit amet ipsum rhoncus, gravida arcu id, congue enim. Fusce sit amet mi ut lacus dictum malesuada vitae in massa. Donec at mauris faucibus, dapibus felis convallis, eleifend augue. Fusce at volutpat nibh. Quisque eget magna a urna faucibus suscipit ut a risus. Ut rhoncus sodales augue, sed posuere mi efficitur sed. Sed ut sollicitudin ipsum. Fusce finibus nibh metus, vitae eleifend mi scelerisque vel. Integer ac commodo dui, luctus mattis eros. Cras vitae luctus urna. Donec pellentesque lacinia sagittis. Aliquam erat volutpat. Proin laoreet eget urna eget pellentesque. Duis pharetra nisi vitae lacus bibendum vehicula. Quisque eget augue luctus, iaculis nisl non, tempor urna. Nullam quis molestie metus, ac convallis tortor. Sed euismod purus lacus, eget venenatis elit gravida vitae. Phasellus efficitur porttitor ligula elementum auctor. Donec elementum, nibh a accumsan varius, leo dolor blandit dui, ac cursus orci ex et mauris. Maecenas suscipit non neque ut.",
+        "image": "",
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "date": "Month, Year"
     }
 ]
