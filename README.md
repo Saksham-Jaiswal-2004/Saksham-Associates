@@ -44,65 +44,49 @@ Welcome to the repository for **Saksham Associates**, a modern and stylish websi
    ```bash
    git clone https://github.com/yourusername/saksham-associates.git
    cd saksham-associates
-Install dependencies
+2. **Install dependencies**
 
-bash
-Copy
-Edit
-npm install
-Set up Firebase
+```bash
+    npm install
+```
+3. **Set up Firebase**
 
 Create a Firebase project.
 Add your Firebase configuration to a .env.local file:
-makefile
-Copy
-Edit
+```bash
 NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
 NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
 NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-Set up EmailJS
+```
+
+4. **Set up EmailJS**
 
 Create an account on EmailJS.
 Add your EmailJS credentials to the .env.local file:
-makefile
-Copy
-Edit
+
+```bash
 NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
 NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
 NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
-Run the development server
+```
 
-bash
-Copy
-Edit
+5. **Run the development server**
+
+```
 npm run dev
-Build for production
+```
 
-bash
-Copy
-Edit
+6. **Build for production**
+
+```
 npm run build
-🧩 Project Structure
-csharp
-Copy
-Edit
-saksham-associates/
-├── public/                # Static assets
-├── src/
-│   ├── components/        # Reusable components
-│   ├── pages/             # Page components
-│   ├── styles/            # Custom styles
-│   ├── utils/             # Utility functions
-│   ├── App.js             # Root component
-│   └── index.js           # Entry point
-├── .env.local             # Environment variables
-├── package.json           # Dependencies and scripts
-└── README.md              # Project documentation
-📈 Vercel Deployment
+```
+
+## 📈 Vercel Deployment
 The website is deployed on Vercel. Check it out here: Saksham Associates
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to fork the repository and submit a pull request. For major changes, open an issue first to discuss what you'd like to change.
 
-📧 Contact
-If you have any questions or suggestions, feel free to contact us at your-email@example.com.
+## 📧 Contact
+If you have any questions or suggestions, don't hesitate to get in touch with us at sakshamjaiswalofficial@gmail.com.
