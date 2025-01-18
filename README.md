@@ -41,9 +41,11 @@ Welcome to the repository for **Saksham Associates**, a modern and stylish websi
 ## 🛠️ Installation and Setup
 
 1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/saksham-associates.git
-   cd saksham-associates
+```bash
+git clone https://github.com/yourusername/saksham-associates.git
+cd saksham-associates
+```
+
 2. **Install dependencies**
 
 ```bash
@@ -83,7 +85,7 @@ npm run build
 ```
 
 ## 📈 Vercel Deployment
-The website is deployed on Vercel. Check it out here: Saksham Associates
+The website is deployed on Vercel. Check it out here: [Saksham Associates](sakshamassociates.in)
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to fork the repository and submit a pull request. For major changes, open an issue first to discuss what you'd like to change.
