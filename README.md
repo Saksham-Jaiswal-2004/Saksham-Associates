@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Saksham Associates - Interior Designing Firm Website
 
-## Getting Started
+Welcome to the repository for **Saksham Associates**, a modern and stylish website designed for an interior designing firm. This website is built with **Next.js** and **Tailwind CSS**, delivering a high-performance and responsive user experience.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
+- **Built with Next.js and Tailwind CSS**  
+  Leveraging the power of **Next.js** for server-side rendering and optimized performance, combined with the utility-first approach of **Tailwind CSS** for custom styling.
+
+- **Email Automation with EmailJS**  
+  The contact form is integrated with **EmailJS** to automate sending emails to the admin upon submission. Users receive an immediate response, ensuring smooth communication.
+
+- **Firebase Integration**  
+  All contact form data is securely stored in **Firebase**, providing a reliable and scalable backend solution.
+
+- **Vercel Insights**  
+  Gain performance insights and analytics with **Vercel Insights**, ensuring the website delivers an optimal user experience.
+
+- **React Icons**  
+  Aesthetic and functional icons from **React Icons** enhance the visual appeal of the website.
+
+- **Country-based Phone Number Input**  
+  Implemented **React Phone Number Input** for effortless country-based phone number entry.
+
+- **Image Carousel with Swiper.js**  
+  The website includes an interactive image carousel using **Swiper.js**, showcasing designs and projects dynamically.
+
+- **Subtle Animations with Framer Motion**  
+  Added smooth and elegant animations using **Framer Motion** for a modern and engaging user interface.
+
+## 🚀 Tech Stack
+
+- **Frontend**: Next.js, Tailwind CSS
+- **Email Automation**: EmailJS
+- **Backend**: Firebase
+- **Carousel**: Swiper.js
+- **Icons**: React Icons
+- **Animations**: Framer Motion
+- **Deployment**: Vercel
+
+## 🛠️ Installation and Setup
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/saksham-associates.git
+   cd saksham-associates
+Install dependencies
+
+bash
+Copy
+Edit
+npm install
+Set up Firebase
+
+Create a Firebase project.
+Add your Firebase configuration to a .env.local file:
+makefile
+Copy
+Edit
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+Set up EmailJS
+
+Create an account on EmailJS.
+Add your EmailJS credentials to the .env.local file:
+makefile
+Copy
+Edit
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
+NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
+Run the development server
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Build for production
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+bash
+Copy
+Edit
+npm run build
+🧩 Project Structure
+csharp
+Copy
+Edit
+saksham-associates/
+├── public/                # Static assets
+├── src/
+│   ├── components/        # Reusable components
+│   ├── pages/             # Page components
+│   ├── styles/            # Custom styles
+│   ├── utils/             # Utility functions
+│   ├── App.js             # Root component
+│   └── index.js           # Entry point
+├── .env.local             # Environment variables
+├── package.json           # Dependencies and scripts
+└── README.md              # Project documentation
+📈 Vercel Deployment
+The website is deployed on Vercel. Check it out here: Saksham Associates
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🤝 Contributing
+Contributions are welcome! Please feel free to fork the repository and submit a pull request. For major changes, open an issue first to discuss what you'd like to change.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📧 Contact
+If you have any questions or suggestions, feel free to contact us at your-email@example.com.
