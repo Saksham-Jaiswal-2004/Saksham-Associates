@@ -165,8 +165,7 @@ const ContactFull = () => {
           </div>
 
           <div className="md:h-[400px] h-[250px] w-[100%]">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d460.39082571626733!2d88.40752596267707!3d22.611746926839615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1735725848788!5m2!1sen!2sin"
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.123537323811!2d88.40561997475828!3d22.611861531531254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275734d5646c5%3A0x97e04385c0935033!2sSaksham%20Associates!5e0!3m2!1sen!2sin!4v1738569730935!5m2!1sen!2sin" 
               width="100%"
               height="100%"
               style={{ border: 0 }}

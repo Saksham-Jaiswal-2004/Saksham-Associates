@@ -209,7 +209,7 @@ li:hover{
 
 .social:hover{
   color: var(--coral);
-  border: 1px solid var(--coral);
+  /* border: 1px solid var(--coral); */
 }
 
 .link li{
