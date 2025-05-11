@@ -4,6 +4,7 @@ import CTA from '../components/CTA'
 import Link from 'next/link'
 import testimonials from "../constants/testimonials.json";
 import { Star, StarHalf } from 'lucide-react';
+import Seo from '../components/SEO';
 
 const Testimonial = ({id, image, author, rating, content, role }) => {
   // Convert rating to number of full and half stars
@@ -61,24 +62,33 @@ const Testimonial = ({id, image, author, rating, content, role }) => {
 const page = () => {
 
   return (
-    <div className='h-fit'>
-      <div className='h-screen flex justify-start items-end bg2'>
-        <div className='absolute h-full md:w-[62%] w-[100%] bg-[#0000009e]'></div>
-        <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] head3'>Dreams Designed, Stories Shared</h1>
-      </div>
-
-      <div className='flex flex-col my-24 head w-full'>
-        <h2 className="md:text-6xl text-4xl font-bold mb-6 my-10">Words That Inspire Us</h2>
-        <div className="flex flex-wrap justify-center items-center my-10 md:gap-6 gap-1 md:p-8 p-1">
-          {testimonials.map((testimonial, index) => (
-              <Testimonial key={index} {...testimonial}/>
-          ))}
+    <>
+      <Seo
+        title="Client Testimonials | Saksham Associates"
+        description="Read real client testimonials and reviews for Saksham Associates. Discover how we deliver inspiring interior design solutions in Kolkata."
+        url="https://sakshamassociates.in/Testimonials"
+        image="/images/SALOGO.svg"
+        keywords="testimonials, client reviews, Saksham Associates, interior design feedback, Kolkata"
+      />
+      <div className='h-fit'>
+        <div className='h-screen flex justify-start items-end bg2'>
+          <div className='absolute h-full md:w-[62%] w-[100%] bg-[#0000009e]'></div>
+          <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] head3'>Dreams Designed, Stories Shared</h1>
         </div>
-      </div>
 
-      <Stats/>
-      <CTA/>
-    </div>
+        <div className='flex flex-col my-24 head w-full'>
+          <h2 className="md:text-6xl text-4xl font-bold mb-6 my-10">Words That Inspire Us</h2>
+          <div className="flex flex-wrap justify-center items-center my-10 md:gap-6 gap-1 md:p-8 p-1">
+            {testimonials.map((testimonial, index) => (
+                <Testimonial key={index} {...testimonial}/>
+            ))}
+          </div>
+        </div>
+
+        <Stats/>
+        <CTA/>
+      </div>
+    </>
   )
 }
 
