@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Star, StarHalf } from 'lucide-react';
 import Seo from '../components/SEO';
 import { getTestimonials } from '../../lib/getTestimonials';
+import Image from 'next/image';
 
 const Testimonial = ({ id, image, name, rating, testimonial, role }) => {
   const fullStars = Math.floor(rating);
@@ -16,7 +17,15 @@ const Testimonial = ({ id, image, name, rating, testimonial, role }) => {
     <div className="card1 hover:bg-[#5a695f] rounded-xl p-6 my-2 shadow-md md:w-[32%] w-[98%] min-h-[330px] max-h-fit">
       <Link href={`Testimonials/${id}`}>
         <div className="flex items-center mb-4">
-          <img src={image} alt={name} className='h-[90px] w-auto flex justify-center items-center rounded-full mx-8' />
+          <Image
+            src={image}
+            alt={name}
+            aria-label={`Photo of ${name}`}
+            width={90}
+            height={90}
+            className='h-[90px] w-auto flex justify-center items-center rounded-full mx-8 object-cover'
+            unoptimized
+          />
 
           {rating + " - "}
 
@@ -34,7 +43,7 @@ const Testimonial = ({ id, image, name, rating, testimonial, role }) => {
         </div>
 
         <blockquote className="text-[#e4ddcf] mb-4 italic">
-          "{testimonial.substring(0, 220) + " ..."}"
+          &quot;{testimonial.substring(0, 220) + " ..."}&quot;
         </blockquote>
 
         <div className="flex flex-col">

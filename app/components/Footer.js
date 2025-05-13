@@ -6,6 +6,7 @@ import { CiLinkedin } from "react-icons/ci";
 import { AiOutlinePinterest } from "react-icons/ai";
 import { FaHouzz } from "react-icons/fa";
 import { PiLinktreeLogoBold } from "react-icons/pi";
+import Image from 'next/image'
 
 const Footer = () => {
   return (
@@ -13,7 +14,14 @@ const Footer = () => {
       <div className='flex flex-wrap justify-center items-center w-full p-2'>
         <div className='flex flex-col md:w-1/3 w-[100%] my-5 justify-center items-center'>
           <div className='flex justify-center items-center gap-2 flex-wrap'>
-            <img src="/images/SALogoGreen.png" alt="" className='md:w-[50px] w-[40px] h-auto'/>
+            <Image
+              src="/images/SALogoGreen.png"
+              alt="Saksham Associates Logo"
+              aria-label="Saksham Associates Logo"
+              width={50}
+              height={50}
+              className='md:w-[50px] w-[40px] h-auto'
+            />
             <h1 className='md:text-4xl text-2xl my-5 signature'>Saksham Associates</h1>
           </div>
 

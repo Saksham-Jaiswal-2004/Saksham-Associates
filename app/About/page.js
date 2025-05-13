@@ -8,6 +8,7 @@ import CTA from '../components/CTA'
 import ContactFull from '../components/ContactFull'
 import Link from 'next/link'
 import Seo from '../components/SEO';
+import Image from 'next/image'
 
 const page = () => {
   return (
@@ -22,7 +23,7 @@ const page = () => {
       <div className='h-fit'>
         <div className='h-screen flex justify-start items-end bg2'>
           <div className='absolute h-full md:w-[60%] w-[100%] bg-[#0000009e] z-[1]'></div>
-          <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] head3'>Where Design Meets Inspiration</h1>
+          <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] head3' aria-label="Where Design Meets Inspiration">Where Design Meets Inspiration</h1>
         </div>
 
         <div className='h-fit flex flex-wrap justify-center items-center'>
@@ -37,7 +38,15 @@ const page = () => {
           </div>
 
           <div className='md:w-1/2 w-full flex justify-center items-center'>
-            <img src="https://i.pinimg.com/736x/74/99/9e/74999e6a2dfefa2a882f2e2289a0fa99.jpg" alt="About Image" className='object-cover bg-center brightness-90'/>
+            <Image
+              src="https://i.pinimg.com/736x/74/99/9e/74999e6a2dfefa2a882f2e2289a0fa99.jpg"
+              alt="About Saksham Associates"
+              aria-label="About Saksham Associates"
+              width={600}
+              height={400}
+              className='object-cover bg-center brightness-90'
+              unoptimized
+            />
           </div>
         </div>
 

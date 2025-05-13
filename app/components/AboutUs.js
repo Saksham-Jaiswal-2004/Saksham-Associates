@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const AboutUs = () => {
   return (
@@ -10,7 +11,15 @@ const AboutUs = () => {
 
       <div className='flex flex-wrap h-fit justify-center items-center'>
         <div className='md:w-1/2 w-full px-10 py-14'>
-          <img src="https://ideogram.ai/assets/progressive-image/balanced/response/o3J4ZlJhRzqZiV5-AIp_VQ" alt="About Company" />
+          <Image
+            src="https://ideogram.ai/assets/progressive-image/balanced/response/o3J4ZlJhRzqZiV5-AIp_VQ"
+            alt="About Company - Saksham Associates"
+            aria-label="About Company - Saksham Associates"
+            width={600}
+            height={400}
+            className="w-full h-auto object-cover"
+            unoptimized
+          />
         </div>
 
         <div className='md:w-1/2 w-full p-8'>

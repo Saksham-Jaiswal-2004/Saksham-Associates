@@ -1,5 +1,6 @@
 import Seo from "../../components/SEO";
 import { getTestimonials } from "../../../lib/getTestimonials";
+import Image from "next/image";
 
 export default async function TestimonialPage({ params }) {
   const { id } = params;
@@ -31,15 +32,19 @@ export default async function TestimonialPage({ params }) {
       <div className="h-fit">
         <div className="testimonial h-[60vh] flex justify-start items-end">
           <div className="absolute h-full md:w-[50%] w-[100%] bg-[#0000009e]"></div>
-          <h1 className="md:text-5xl text-3xl m-10 z-[2]">Hear it from {testimonial.name}</h1>
+          <h1 className="md:text-5xl text-3xl m-10 z-[2]" aria-label={`Hear it from ${testimonial.name}`}>Hear it from {testimonial.name}</h1>
         </div>
 
         <div className="py-2 px-8 flex flex-col justify-center items-start my-16 text-center h-fit">
           {testimonial.image && (
-            <img
+            <Image
               src={testimonial.image}
               alt={testimonial.name}
+              aria-label={`Photo of ${testimonial.name}`}
+              width={120}
+              height={120}
               className="w-[120px] h-[120px] rounded-full mb-4 object-cover"
+              unoptimized
             />
           )}
 
@@ -49,7 +54,7 @@ export default async function TestimonialPage({ params }) {
 
           <p className="font-semibold">Rating: {testimonial.rating} ★</p>
 
-          <p className="italic text-left my-4 text-lg">"{testimonial.testimonial}"</p>
+          <p className="italic text-left my-4 text-lg">&quot;{testimonial.testimonial}&quot;</p>
 
           {testimonial.createdAt && (
             <p className="text-gray-500 mt-2">

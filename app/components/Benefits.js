@@ -27,7 +27,7 @@ const Benefits = () => {
 
           <div className='my-3 md:w-[85%] w-[46%]'>
             <h1 className='md:text-2xl text-base'>4.Increased Property Value</h1>
-            <p className='text-sm md:w-[80%]'>Smart design elevates your space and increases its value. Whether you're renovating or building from scratch, our designs offer long-term financial benefits and appeal to future buyers.</p>
+            <p className='text-sm md:w-[80%]'>Smart design elevates your space and increases its value. Whether you&apos;re renovating or building from scratch, our designs offer long-term financial benefits and appeal to future buyers.</p>
           </div>
 
           <div className='my-3 md:w-[85%] w-[46%]'>

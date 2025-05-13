@@ -6,6 +6,7 @@ import { PROJECT3 } from '../constants'
 import { PROJECT4 } from '../constants'
 import { PROJECT5 } from '../constants'
 import { PROJECT6 } from '../constants'
+import Image from 'next/image'
 
 const Projects = () => {
   return (
@@ -26,7 +27,15 @@ const Projects = () => {
             <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+                  <Image
+                    src={project.image}
+                    alt={`Project Image - ${project.title}`}
+                    aria-label={`Project Image - ${project.title}`}
+                    width={400}
+                    height={300}
+                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
+                    unoptimized
+                  />
                 </div>
     
                 <h1>{project.title}</h1>
@@ -55,7 +64,15 @@ const Projects = () => {
             <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+                  <Image
+                    src={project.image}
+                    alt={`Project Image - ${project.title}`}
+                    aria-label={`Project Image - ${project.title}`}
+                    width={400}
+                    height={300}
+                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
+                    unoptimized
+                  />
                 </div>
     
                 <h1>{project.title}</h1>
@@ -84,7 +101,15 @@ const Projects = () => {
             <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+                  <Image
+                    src={project.image}
+                    alt={`Project Image - ${project.title}`}
+                    aria-label={`Project Image - ${project.title}`}
+                    width={400}
+                    height={300}
+                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
+                    unoptimized
+                  />
                 </div>
     
                 <h1>{project.title}</h1>
@@ -113,7 +138,15 @@ const Projects = () => {
             <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+                  <Image
+                    src={project.image}
+                    alt={`Project Image - ${project.title}`}
+                    aria-label={`Project Image - ${project.title}`}
+                    width={400}
+                    height={300}
+                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
+                    unoptimized
+                  />
                 </div>
     
                 <h1>{project.title}</h1>
@@ -142,7 +175,15 @@ const Projects = () => {
             <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+                  <Image
+                    src={project.image}
+                    alt={`Project Image - ${project.title}`}
+                    aria-label={`Project Image - ${project.title}`}
+                    width={400}
+                    height={300}
+                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
+                    unoptimized
+                  />
                 </div>
     
                 <h1>{project.title}</h1>
@@ -171,7 +212,15 @@ const Projects = () => {
             <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <img src={project.image} alt="Project Image" className='w-[100%] md:h-[300px] h-[130px] object-cover'/>
+                  <Image
+                    src={project.image}
+                    alt={`Project Image - ${project.title}`}
+                    aria-label={`Project Image - ${project.title}`}
+                    width={400}
+                    height={300}
+                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
+                    unoptimized
+                  />
                 </div>
     
                 <h1>{project.title}</h1>

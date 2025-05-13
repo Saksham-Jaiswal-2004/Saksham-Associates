@@ -180,7 +180,7 @@ const ContactFull = () => {
         <div className='md:w-1/2 w-[95%] flex flex-col justify-center items-center'>
           <form ref={form} method='POST' action="" id='contact-form' onSubmit={handleSubmit} className='flex flex-col justify-center items-center md:w-4/5 w-full bg5 md:mx-10 mx-1 my-2 rounded-xl md:p-8 p-2'>
             <div>
-              <h1 className='text-3xl my-4'>Let's Get Connected</h1>
+              <h1 className='text-3xl my-4'>Let&apos;s Get Connected</h1>
             </div>
 
             <div className='flex flex-col justify-start md:w-[65%] w-[80%]'>

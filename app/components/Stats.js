@@ -40,7 +40,7 @@ const Stats = () => {
         </div>
 
         <div className='w-full flex justify-center items-center my-4'>
-          <h1 className='md:text-3xl text:2xl font-bold'>"Every milestone is a reflection of our dedication to creating spaces that inspire and exceed expectations."</h1>
+          <h1 className='md:text-3xl text:2xl font-bold'>&quot;Every milestone is a reflection of our dedication to creating spaces that inspire and exceed expectations.&quot;</h1>
         </div>
       </div>
     </div>

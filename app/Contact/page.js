@@ -6,8 +6,6 @@ import Seo from '../components/SEO';
 
 const page = () => {
 
-  const [phoneNumber, setPhoneNumber] = useState('');
-
   return (
     <>
       <Seo

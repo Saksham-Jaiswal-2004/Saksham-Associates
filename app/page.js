@@ -8,6 +8,7 @@ import ContactFull from "./components/ContactFull";
 import Services from "./components/Services";
 import Link from 'next/link'
 import Seo from "./components/SEO";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
       />
       <div className="h-fit">
         <div className="h-screen flex justify-center items-center bg1 text-[#fff] w-full">
-          <h1 className="md:text-7xl text-[2.4rem]">Saksham Associates</h1>
+          <h1 className="md:text-7xl text-[2.2rem]">Saksham Associates</h1>
         </div>
 
         <div className="h-fit mb-24 flex flex-wrap items-center">
@@ -35,7 +36,14 @@ export default function Home() {
           </div>
 
           <div className="md:w-1/2 w-full h-fit">
-            <img src="https://i.pinimg.com/736x/ad/e6/62/ade662a46b59ee144b067ce01f40db51.jpg" alt="Home Image" className="w-full h-auto object-cover"/>
+            <Image
+              src="https://i.pinimg.com/736x/ad/e6/62/ade662a46b59ee144b067ce01f40db51.jpg"
+              alt="Home Image"
+              className="w-full h-auto object-cover"
+              width={800}
+              height={500}
+              unoptimized
+            />
           </div>
         </div>
 

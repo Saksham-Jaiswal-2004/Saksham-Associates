@@ -1,6 +1,7 @@
 // components/Carousel.js
 "use client"
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 const Carousel = ({ images, slidesToShow = 3, slidesToScroll = 1 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -58,7 +59,15 @@ const Carousel = ({ images, slidesToShow = 3, slidesToScroll = 1 }) => {
             key={index}
             className={`w-${100 / responsiveSettings.slidesToShow}% flex-shrink-0`} // Adjust width dynamically
           >
-            <img src={image} alt={`Slide ${index}`} className="w-full h-auto" />
+            <Image
+              src={image}
+              alt={`Slide ${index + 1}`}
+              aria-label={`Carousel Slide ${index + 1}`}
+              width={800}
+              height={500}
+              className="w-full h-auto"
+              unoptimized
+            />
           </div>
         ))}
       </div>
@@ -69,6 +78,7 @@ const Carousel = ({ images, slidesToShow = 3, slidesToScroll = 1 }) => {
             key={index}
             className={`h-2 w-2 rounded-full mx-1 ${currentIndex === index ? 'bg-blue-500' : 'bg-gray-300'}`}
             onClick={() => setCurrentIndex(index)}
+            aria-label={`Go to slide ${index + 1}`}
           />
         ))}
       </div>
