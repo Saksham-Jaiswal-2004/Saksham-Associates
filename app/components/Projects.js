@@ -24,7 +24,7 @@ const Projects = () => {
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {PROJECT1.map((project, index) => (
-            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -61,7 +61,7 @@ const Projects = () => {
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {PROJECT2.map((project, index) => (
-            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -98,7 +98,7 @@ const Projects = () => {
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {PROJECT3.map((project, index) => (
-            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -135,7 +135,7 @@ const Projects = () => {
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {PROJECT4.map((project, index) => (
-            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -172,7 +172,7 @@ const Projects = () => {
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {PROJECT5.map((project, index) => (
-            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -209,7 +209,7 @@ const Projects = () => {
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {PROJECT6.map((project, index) => (
-            <div key={index} className='md:w-[22%] w-[48%] card3 pb-2'>
+            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
