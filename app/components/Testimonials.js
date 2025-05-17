@@ -21,7 +21,7 @@ const Testimonials = () => {
           const sorted = data
             .filter((t) => t.rating !== undefined)
             .sort((a, b) => b.rating - a.rating)
-            .slice(0, 6); // top 6 highest rated
+            .slice(0, 9);
 
           setTestimonials(sorted);
 
@@ -57,7 +57,8 @@ const Testimonials = () => {
 
       <div className="md:h-3/5 h-fit w-[90%] flex flex-col justify-center items-center my-10 mx-4">
         <Swiper
-          loop={true}
+          // loop={true}
+          loop={testimonials.length > 3}
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{

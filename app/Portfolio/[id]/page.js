@@ -1,13 +1,14 @@
 import CTA from "@/app/components/CTA";
-import projects from "../../constants/projects.json";
+// import useFetchProjectById from '../../hooks/fetchProjectByID'
+import { getProjectById } from "@/app/hooks/getProjectByID";
 
 export default async function ProjectPage({ params }) {
-  const { id } = await params;
 
-  const project = projects.find((item) => String(item.id) === id);
+  const id = params.id;
+  const project = await getProjectById(id);
 
   if (!project) {
-    return <p>Project not found.</p>;
+    return <p className="h-[55vh] flex justify-center items-center">Project not found.</p>;
   }
 
   return (
@@ -20,12 +21,7 @@ export default async function ProjectPage({ params }) {
       <div className="p-2 flex flex-col justify-center items-start my-16 text-center h-fit">
        <h1 className="text-2xl font-bold">{project.title}</h1>
        <p className="italic my-4">&quot;{project.description}&quot;</p>
-       <ul className='flex flex-wrap gap-2'>
-          {project.features.map((feature, index) => (
-            <li key={index}>{feature}</li>
-          ))}
-        </ul>
-       <p className="text-gray-500">{project.date}</p>
+       <p className="text-gray-500">{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
       </div>
 
       <CTA/>

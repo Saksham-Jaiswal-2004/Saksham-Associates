@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import Seo from "./components/SEO";
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,12 +28,29 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Seo/>
+      <head>
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-2KE6DRQE58"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2KE6DRQE58');
+          `}
+        </Script>
+      </head>
+
+      <Seo />
+
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Navbar/>
+        <Navbar />
         {children}
         <SpeedInsights />
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

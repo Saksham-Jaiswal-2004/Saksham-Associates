@@ -1,14 +1,19 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
-import { PROJECT1 } from '../constants'
-import { PROJECT2 } from '../constants'
-import { PROJECT3 } from '../constants'
-import { PROJECT4 } from '../constants'
-import { PROJECT5 } from '../constants'
-import { PROJECT6 } from '../constants'
 import Image from 'next/image'
+import useFetchProjectsByCategory from '../hooks/fetchProjects'
 
 const Projects = () => {
+
+  const { projects: residentialProjects } = useFetchProjectsByCategory("Residential");
+  const { projects: commercialProjects } = useFetchProjectsByCategory("Commercial");
+  const { projects: hospitalityProjects } = useFetchProjectsByCategory("Hospitality");
+  const { projects: retailProjects } = useFetchProjectsByCategory("Retail Stores");
+  const { projects: factoryProjects } = useFetchProjectsByCategory("Factories");
+  const { projects: restaurantProjects } = useFetchProjectsByCategory("Restraunts and Cafes");
+
+
   return (
     <div className='h-fit md:my-28 my-24 flex flex-col justify-center items-center' id='projects'>
       <div className='w-full flex justify-start'>
@@ -23,8 +28,8 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {PROJECT1.map((project, index) => (
-            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
+          {Array.isArray(residentialProjects) && residentialProjects.slice(0,4).map((project) => (
+            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -37,13 +42,13 @@ const Projects = () => {
                     unoptimized
                   />
                 </div>
-    
+
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.type} |</p>
-                  <p>{project.date}</p>
+                  <p>{project.category} |</p>
+                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
-                </Link>
+              </Link>
             </div>
           ))}
         </div>
@@ -60,8 +65,8 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {PROJECT2.map((project, index) => (
-            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
+          {Array.isArray(commercialProjects) && commercialProjects.slice(0,4).map((project) => (
+            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -74,14 +79,14 @@ const Projects = () => {
                     unoptimized
                   />
                 </div>
-    
+
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.type} |</p>
-                  <p>{project.date}</p>
+                  <p>{project.category} |</p>
+                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
-          </div>
+            </div>
           ))}
         </div>
 
@@ -89,7 +94,7 @@ const Projects = () => {
           <Link href="/Commercial" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
         </div>
       </div>
-      
+
       {/* Section 3 */}
       <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
@@ -97,8 +102,8 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {PROJECT3.map((project, index) => (
-            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
+          {Array.isArray(hospitalityProjects) && hospitalityProjects.slice(0,4).map((project) => (
+            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -111,11 +116,11 @@ const Projects = () => {
                     unoptimized
                   />
                 </div>
-    
+
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.type} |</p>
-                  <p>{project.date}</p>
+                  <p>{project.category} |</p>
+                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
             </div>
@@ -126,7 +131,7 @@ const Projects = () => {
           <Link href="/Hospitality" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
         </div>
       </div>
-      
+
       {/* Section 4 */}
       <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
@@ -134,8 +139,8 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {PROJECT4.map((project, index) => (
-            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
+          {Array.isArray(retailProjects) && retailProjects.slice(0,4).map((project) => (
+            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -148,11 +153,11 @@ const Projects = () => {
                     unoptimized
                   />
                 </div>
-    
+
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.type} |</p>
-                  <p>{project.date}</p>
+                  <p>{project.category} |</p>
+                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
             </div>
@@ -171,8 +176,8 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {PROJECT5.map((project, index) => (
-            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
+          {Array.isArray(factoryProjects) && factoryProjects.slice(0,4).map((project) => (
+            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -185,11 +190,11 @@ const Projects = () => {
                     unoptimized
                   />
                 </div>
-    
+
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.type} |</p>
-                  <p>{project.date}</p>
+                  <p>{project.category} |</p>
+                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
             </div>
@@ -208,8 +213,8 @@ const Projects = () => {
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {PROJECT6.map((project, index) => (
-            <div key={index} className='md:w-[23%] w-[48%] card3 pb-2'>
+          {Array.isArray(restaurantProjects) && restaurantProjects.slice(0,4).map((project) => (
+            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
                 <div className='md:h-[320px] h-[140px] overflow-hidden'>
                   <Image
@@ -222,11 +227,11 @@ const Projects = () => {
                     unoptimized
                   />
                 </div>
-    
+
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.type} |</p>
-                  <p>{project.date}</p>
+                  <p>{project.category} |</p>
+                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
             </div>
