@@ -5,6 +5,10 @@ import PhoneInput from 'react-phone-number-input';
 import 'react-phone-number-input/style.css';
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import ReCAPTCHA from "react-google-recaptcha";
+
+// const SITE_KEY = process.env.CAPTCHA_SITE_KEY;
+const SITE_KEY = "6Lf7KUIrAAAAAAj-UyHwyHl3KtbSVutMLwB2WM3v";
 
 const ContactFull = () => {
 
@@ -12,6 +16,8 @@ const ContactFull = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [phoneNumber, setPhoneNumber] = useState('');
   const [status, setStatus] = useState("");
+  const recaptchaRef = useRef(null);
+  const [captchaToken, setCaptchaToken] = useState(null);
 
   // Input Fields upadte function
   const handleChange = (e) => {
@@ -28,7 +34,7 @@ const ContactFull = () => {
     };
 
     // console.log(data);
-  
+
     try {
       const response = await fetch(
         "https://script.google.com/macros/s/AKfycbzg82p47_mSJ0jdxuCuPpSwrXxMzUO4FWEoenhFl6y-Q2cFz1qFW1KeBlSeWlk27Vb6/exec",
@@ -39,7 +45,7 @@ const ContactFull = () => {
           body: JSON.stringify(data),
         }
       );
-  
+
       if (response.status === 200) {
         // alert("Form submitted successfully!");
       } else {
@@ -121,6 +127,11 @@ const ContactFull = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    if (!captchaToken) {
+      alert("Please verify reCAPTCHA first.");
+      return;
+    }
+
     await sendEmail(e);  // Call the email sending function
     await sendEmailSelf(e);  // Call the email sending function
     await submitQuery(e); // Call the submission function
@@ -165,7 +176,7 @@ const ContactFull = () => {
           </div>
 
           <div className="md:h-[400px] h-[250px] w-[100%]">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.123537323811!2d88.40561997475828!3d22.611861531531254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275734d5646c5%3A0x97e04385c0935033!2sSaksham%20Associates!5e0!3m2!1sen!2sin!4v1738569730935!5m2!1sen!2sin" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.123537323811!2d88.40561997475828!3d22.611861531531254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0275734d5646c5%3A0x97e04385c0935033!2sSaksham%20Associates!5e0!3m2!1sen!2sin!4v1738569730935!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -187,17 +198,17 @@ const ContactFull = () => {
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="name" className='text-lg py-1 head3'>Name</label>
-                <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} placeholder='Enter your name' className='focus:outline-none focus:border-b' required/>
+                <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} placeholder='Enter your name' className='focus:outline-none focus:border-b' required />
               </div>
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="phone" className='text-lg py-1 head3'>Phone</label>
-                <PhoneInput id='phone' name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='focus:outline-none focus:border-b'/>
+                <PhoneInput id='phone' name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='focus:outline-none focus:border-b' />
               </div>
 
               <div className='my-5 flex flex-col w-full'>
                 <label htmlFor="email" className='text-lg py-1 head3'>Email</label>
-                <input type="email" id='email' name="email" value={formData.email} onChange={handleChange} placeholder='Enter your email-id' className='focus:outline-none focus:border-b' required/>
+                <input type="email" id='email' name="email" value={formData.email} onChange={handleChange} placeholder='Enter your email-id' className='focus:outline-none focus:border-b' required />
               </div>
 
               <div className='my-5 flex flex-col w-full'>
@@ -205,7 +216,13 @@ const ContactFull = () => {
                 <textarea id='message' name="message" value={formData.message} onChange={handleChange} placeholder='Enter your queries...' className='focus:outline-none focus:border-b' required></textarea>
               </div>
 
-              <div className='flex flex-wrap w-full justify-end gap-4'>
+              <ReCAPTCHA
+                sitekey={SITE_KEY}
+                onChange={(token) => setCaptchaToken(token)}
+                ref={recaptchaRef}
+              />
+
+              <div className='flex flex-wrap w-full justify-end gap-4 mt-4'>
                 <button type='submit' className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Submit</button>
                 <button type='reset' onClick={handleReset} className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Reset</button>
               </div>
