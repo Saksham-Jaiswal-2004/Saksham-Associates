@@ -86,7 +86,7 @@ const Testimonials = () => {
                 <div className="flex flex-wrap md:justify-start items-center w-full h-fit md:gap-6 gap-2 mb-4 overflow-x-hidden">
                   <div className="md:h-[150px] md:w-[150px] h-[100px] w-[100px] rounded-full overflow-hidden">
                     <Image
-                      src={testimonial.image || "/images/SALOGO.svg"}
+                      src={testimonial.imageUrl || "/images/SALOGO.svg"}
                       alt={testimonial.name || "Client"}
                       aria-label={testimonial.name ? `Testimonial image of ${testimonial.name}` : "Testimonial image"}
                       width={150}
