@@ -139,6 +139,7 @@ const ContactFull = () => {
 
     // Optionally reset the form after successful submission
     handleReset();
+    setCaptchaToken(null)
   };
 
   // Handling Reset option
@@ -150,6 +151,7 @@ const ContactFull = () => {
     });
 
     setPhoneNumber('');
+    setCaptchaToken(null)
   };
 
   return (
