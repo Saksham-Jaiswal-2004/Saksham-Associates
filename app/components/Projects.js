@@ -45,7 +45,7 @@ const Projects = () => {
 
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.category} |</p>
+                  <p>{project.location} |</p>
                   <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
@@ -82,7 +82,7 @@ const Projects = () => {
 
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.category} |</p>
+                  <p>{project.location} |</p>
                   <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
@@ -119,7 +119,7 @@ const Projects = () => {
 
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.category} |</p>
+                  <p>{project.location} |</p>
                   <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
@@ -156,7 +156,7 @@ const Projects = () => {
 
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.category} |</p>
+                  <p>{project.location} |</p>
                   <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
@@ -193,7 +193,7 @@ const Projects = () => {
 
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.category} |</p>
+                  <p>{project.location} |</p>
                   <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>
@@ -230,7 +230,7 @@ const Projects = () => {
 
                 <h1>{project.title}</h1>
                 <div className='flex px-1'>
-                  <p>{project.category} |</p>
+                  <p>{project.location} |</p>
                   <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
                 </div>
               </Link>

@@ -92,6 +92,7 @@ li:hover{
 /* Features Section */
 .card1{
   background-color: var(--green);
+  border-radius: 1em;
 }
 
 .card1 p{
