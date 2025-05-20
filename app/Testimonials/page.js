@@ -8,22 +8,22 @@ import Seo from '../components/SEO';
 import { getTestimonials } from '../../lib/getTestimonials';
 import Image from 'next/image';
 
-const Testimonial = ({ id, image, name, rating, testimonial, role }) => {
+const Testimonial = ({ id, imageUrl, name, rating, testimonial, role }) => {
   const fullStars = Math.floor(rating);
   const hasHalfStar = rating % 1 >= 0.5;
   const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
 
   return (
-    <div className="card1 hover:bg-[#5a695f] rounded-xl p-6 my-2 shadow-md md:w-[32%] w-[98%] min-h-[330px] max-h-fit">
+    <div className="card1 relative hover:bg-[#5a695f] rounded-xl p-6 my-2 shadow-md md:w-[32%] w-[98%] min-h-[330px] max-h-fit">
       <Link href={`Testimonials/${id}`}>
         <div className="flex items-center mb-4">
           <Image
-            src={image}
+            src={imageUrl}
             alt={name}
             aria-label={`Photo of ${name}`}
             width={90}
             height={90}
-            className='h-[90px] w-auto flex justify-center items-center rounded-full mx-8 object-cover'
+            className='h-[90px] bg-gray-600 w-auto flex justify-center items-center rounded-full mx-8 object-cover'
             unoptimized
           />
 
@@ -46,7 +46,7 @@ const Testimonial = ({ id, image, name, rating, testimonial, role }) => {
           &quot;{testimonial.substring(0, 220) + " ..."}&quot;
         </blockquote>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col absolute bottom-3">
           <cite className="text-[#fafafa] font-medium not-italic">
             {name}
           </cite>

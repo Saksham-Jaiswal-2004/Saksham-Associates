@@ -36,13 +36,13 @@ export default async function TestimonialPage({ params }) {
         </div>
 
         <div className="py-2 px-8 flex flex-col justify-center items-start my-16 text-center h-fit">
-          {testimonial.image && (
+          {testimonial.imageUrl && (
             <Image
-              src={testimonial.image}
+              src={testimonial.imageUrl}
               alt={testimonial.name}
               aria-label={`Photo of ${testimonial.name}`}
-              width={120}
-              height={120}
+              width={300}
+              height={300}
               className="w-[120px] h-[120px] rounded-full mb-4 object-cover"
               unoptimized
             />
