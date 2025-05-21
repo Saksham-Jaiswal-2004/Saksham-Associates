@@ -82,7 +82,7 @@ const Testimonials = () => {
               key={testimonial.id || index}
               className="card2 p-4 h-fit rounded-xl bg-[#00000080] text-white"
             >
-              <Link href={`/Testimonials/${testimonial.id}`}>
+              <Link href={`/Testimonials/${testimonial.id}`} aria-label={`Read full testimonial from ${testimonial.name || "a client"}`}>
                 <div className="flex flex-wrap md:justify-start items-center w-full h-fit md:gap-6 gap-2 mb-4 overflow-x-hidden">
                   <div className="md:h-[150px] md:w-[150px] h-[100px] w-[100px] rounded-full overflow-hidden">
                     <Image
@@ -143,8 +143,9 @@ const Testimonials = () => {
           <Link
             href="/Testimonials"
             className="bg-[#00000098] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2]"
+            aria-label="View more client testimonials"
           >
-            View More
+            View More Testimonials
           </Link>
         </div>
       </div>

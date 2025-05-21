@@ -159,14 +159,16 @@ const ContactFull = () => {
   return (
     <div className='h-fit my-10' id='contact'>
       {/* Title */}
-      <div className='w-full flex justify-start'>
-        <h1 className='md:text-6xl text-4xl my-14 head'>Let’s Bring Your Dream Space to Life</h1>
+      <div className='w-full flex justify-start flex-col gap-4 my-10'>
+        <h1 className='md:text-6xl text-4xl head'>Let’s Bring Your Dream Space to Life</h1>
+        <h1 className='md:text-3xl text-base head'>Contact Kolkata&apos;s Premier Interior Designers</h1>
       </div>
 
       {/* Text */}
       <div className='flex flex-wrap md:flex-row flex-col-reverse justify-center md:items-start items-center'>
         <div className=' h-full md:w-1/2 w-[90%] md:px-10 md:py-4 p-2 md:text-lg text-base'>
-          <p>We’re passionate about transforming ideas into stunning, functional spaces. Whether you’re looking to revamp a single room or reimagine an entire property, we’re here to help. Let’s start the journey to creating your perfect space—together.</p>
+          <p>Experience the Saksham Associates difference. Our award-winning interior design team is ready to bring your vision to life with personalized solutions tailored to your needs and budget.</p>
+          <p className='my-2'>Take the first step toward your dream interior. Whether you&apos;re looking for residential interior designers in Kolkata for your home or commercial interior design services for your business, we&apos;re just a call away.</p>
           <p className='my-2'>Ready to transform your space? <span className='text-[#c08b00]'>Call us today to schedule a personalized consultation</span> and let’s bring your vision to life!</p>
 
           <div className='flex justify-start items-center mt-4'>

@@ -24,6 +24,7 @@ body {
   color: var(--charcoal);
   background: var(--beige);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
 html{

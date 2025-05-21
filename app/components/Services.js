@@ -13,43 +13,43 @@ const Services = () => {
         <div className='flex flex-wrap w-full items-center justify-center md:my-4 my-1 md:m-2 m-1 border'>
           <div className='relative rounded-xl md:w-[40%] w-[95%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
             <Link href="/Residential">
-              <Image src="/images/service1.jpg" alt="Services Image" className='image w-[100%] object-cover' width={600} height={250}/>
-              <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Residential</h1>
+              <Image src="/images/service1.jpg" alt="Residential interior design preview" className='image w-[100%] object-cover' width={600} height={250}/>
+              <h2 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Residential</h2>
             </Link>
           </div>  
 
           <div className='relative rounded-xl md:w-[24%] w-[38%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
             <Link href="/Commercial">
-              <Image src="/images/service2.jpeg" alt="Services Image" className='image w-[100%] object-cover' width={400} height={250}/>
-              <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Commercial</h1>
+              <Image src="/images/service2.jpeg" alt="Commercial interior design preview" className='image w-[100%] object-cover' width={400} height={250}/>
+              <h2 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Commercial</h2>
             </Link>
           </div>  
 
           <div className='relative rounded-xl md:w-[24%] w-[55%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
             <Link href="/Hospitality">
-              <Image src="/images/service3.webp" alt="Services Image" className='image w-[100%] object-cover' width={400} height={250}/>
-              <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Hospitality</h1>
+              <Image src="/images/service3.webp" alt="Hospitality design project preview" className='image w-[100%] object-cover' width={400} height={250}/>
+              <h2 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Hospitality</h2>
             </Link>
           </div>  
 
           <div className='relative rounded-xl md:w-[24%] w-[55%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
             <Link href="/">
-              <Image src="/images/service4.webp" alt="Services Image" className='image w-[100%] object-cover' width={400} height={250}/>
-              <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Restraunts & Cafes</h1>
+              <Image src="/images/service4.webp" alt="Restaurant and cafe interior preview" className='image w-[100%] object-cover' width={400} height={250}/>
+              <h2 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Restraunts & Cafes</h2>
             </Link>
           </div>  
 
           <div className='relative rounded-xl md:w-[24%] w-[38%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
             <Link href="/Retail">
-              <Image src="/images/service5.webp" alt="Services Image" className='image w-[100%] object-cover' width={400} height={250}/>
-              <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Retail Stores</h1>
+              <Image src="/images/service5.webp" alt="Retail store interior design preview" className='image w-[100%] object-cover' width={400} height={250}/>
+              <h2 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Retail Stores</h2>
             </Link>
           </div>  
 
           <div className='relative rounded-xl md:w-[40%] w-[95%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
             <Link href="/Factories">
-              <Image src="/images/service6.jpeg" alt="Services Image" className='image w-[100%] object-cover' width={600} height={250}/>
-              <h1 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Factories</h1>
+              <Image src="/images/service6.jpeg" alt="Factory design interior project image" className='image w-[100%] object-cover' width={600} height={250}/>
+              <h2 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Factories</h2>
             </Link>
           </div>
         </div>
