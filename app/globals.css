@@ -40,7 +40,6 @@ body, p, span, li {
   font-family: 'Lato', sans-serif;
 }
 
-
 .signature {
   font-family: 'Dancing Script', cursive;
   font-weight: 400;
@@ -64,6 +63,14 @@ body, p, span, li {
   background-color: #333333;
   backdrop-filter: blur(5);
   /* box-shadow: 2px 2px 10px var(--charcoal); */
+}
+
+.helloScrolled {
+  background-color: #333333a8 !important;
+}
+
+.navScrolled {
+  color: var(--beige);
 }
 
 #navbar{

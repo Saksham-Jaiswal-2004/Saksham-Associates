@@ -33,7 +33,7 @@ const Services = () => {
           </div>  
 
           <div className='relative rounded-xl md:w-[24%] w-[55%] md:h-[250px] h-[150px] overflow-hidden md:m-2 m-1 cursor-pointer'>
-            <Link href="/">
+            <Link href="/Restaurants">
               <Image src="/images/service4.webp" alt="Restaurant and cafe interior preview" className='image w-[100%] object-cover' width={400} height={250}/>
               <h2 className='z-20 absolute md:text-xl text-sm bottom-[5%] left-[5%] bg-[#00000098] px-2 head3'>Restraunts & Cafes</h2>
             </Link>
