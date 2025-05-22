@@ -91,6 +91,10 @@ li:hover{
   color: var(--coral);
 }
 
+.hide {
+  display: none;
+}
+
 /* Hero Section */
 .bg1{
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/homeHero.avif") no-repeat center center/cover;
@@ -194,9 +198,23 @@ li:hover{
   color: var(--beige);
 }
 
+.bg7{
+  background: none;
+  color: var(--deep-green);
+}
+
 .bg5 input, textarea{
   background: none;
   border-bottom: 1px solid var(--light-gray);
+}
+
+.bg7 input, textarea{
+  background: #f0e9db;
+}
+
+.bg7 input::placeholder, textarea::placeholder{
+  color: var(--charcoal);
+  opacity: 80%;
 }
 
 .PhoneInputCountrySelect {
@@ -204,6 +222,20 @@ li:hover{
   color: white;
   border-radius: 8px;
   padding: 8px;
+}
+
+#phone:focus{
+  outline: none;
+}
+
+.button5{
+  background: var(--teal);
+  color: var(--beige);
+}
+
+.button5:hover{
+  background: var(--deep-green);
+  /* color: #E4DDCF; */
 }
 
 /* Footer */
