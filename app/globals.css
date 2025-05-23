@@ -208,11 +208,11 @@ li:hover{
   border-bottom: 1px solid var(--light-gray);
 }
 
-.bg7 input, textarea{
+.bg7 input{
   background: #f0e9db;
 }
 
-.bg7 input::placeholder, textarea::placeholder{
+.bg7 input::placeholder{
   color: var(--charcoal);
   opacity: 80%;
 }

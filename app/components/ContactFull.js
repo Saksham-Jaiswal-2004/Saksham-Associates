@@ -222,14 +222,16 @@ const ContactFull = () => {
                 <textarea id='message' name="message" value={formData.message} onChange={handleChange} placeholder='Enter your queries...' className='focus:outline-none focus:border-b' required></textarea>
               </div>
 
-              <ReCAPTCHA
-                sitekey={SITE_KEY}
-                onChange={(token) => setCaptchaToken(token)}
-                ref={recaptchaRef}
-              />
+              <div className='flex my-4 w-[100%] sm:scale-100 scale-75' style={{ transformOrigin: '0 0' }}>
+                <ReCAPTCHA
+                  sitekey={SITE_KEY}
+                  onChange={(token) => setCaptchaToken(token)}
+                  ref={recaptchaRef}
+                />
+              </div>
 
               <div className='flex flex-wrap w-full justify-end gap-4 mt-4'>
-                <button type='submit' className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Submit</button>
+                <button type='submit' disabled={!captchaToken} className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Submit</button>
                 <button type='reset' onClick={handleReset} className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Reset</button>
               </div>
             </div>

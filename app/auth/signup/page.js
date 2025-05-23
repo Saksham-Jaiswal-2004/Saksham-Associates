@@ -160,43 +160,8 @@ const Page = () => {
 
   return (
     <div className='min-h-screen h-fit flex justify-center items-center'>
-      <div className='h-fit lg:w-[65vw] md:w-[98vw] w-[95vw] my-10 rounded-2xl flex flex-wrap p-6 border border-gray-600'>
-        <div className='md:w-1/2 w-full flex justify-start items-center flex-col'>
-          <h1 className='text-3xl'>LOGIN</h1>
-
-          <form ref={form} method='POST' action="" id='contact-form' onSubmit={handleSubmit} className='flex flex-col justify-center items-center w-full bg7 md:mx-10 mx-1 my-2 rounded-xl md:p-8 p-2'>
-            <div className='flex flex-col justify-start md:w-[90%] w-[95%]'>
-              <div className='my-2 flex flex-col w-full bg-[#f0e9db]'>
-                <PhoneInput id='phone' name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='border border-gray-600 bg-[#f0e9db] px-3 focus:outline-none rounded-[0.5rem] h-10' />
-              </div>
-
-              <div className='w-full flex justify-center items-center'>
-                <h2>Or</h2>
-              </div>
-
-              <div className='my-2 flex flex-col w-full'>
-                <input type="email" id='email' name="email" value={formData.email} onChange={handleChange} placeholder='Enter your Email-ID' className='border border-gray-600 px-3 focus:outline-none rounded-[0.5rem] h-10'/>
-              </div>
-
-              <div className='flex my-4 w-[100%] sm:scale-100 scale-75' style={{ transformOrigin: '0 0' }}>
-                <ReCAPTCHA
-                  sitekey={SITE_KEY}
-                  onChange={(token) => setCaptchaToken(token)}
-                  ref={recaptchaRef}
-                />
-              </div>
-
-              <p className='mt-2 text-sm'>Don&apos;t have an account? <Link href="/signup" className='text-[#321a0c] hover:text-[#c08b00]'>Sign-Up Here</Link></p>
-
-              <div className='flex flex-wrap w-full justify-end gap-4 mt-4'>
-                <button type='submit' disabled={!captchaToken} className='button5 w-full px-4 py-1 rounded-[0.5rem] md:text-lg text-base'>Submit</button>
-                {/* <button type='reset' onClick={handleReset} className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Reset</button> */}
-              </div>
-            </div>
-          </form>
-        </div>
-
-        <div className='md:w-1/2 w-full flex flex-col justify-start items-center md:border-l md:border-t-0 border-t md:pt-0 pt-4 border-gray-600'>
+      <div className='h-fit lg:w-[65vw] md:w-[98vw] w-[92vw] my-10 rounded-2xl flex flex-wrap-reverse p-6 border border-gray-600'>
+        <div className='md:w-1/2 w-full flex flex-col justify-start items-center md:border-r md:border-t-0 border-t md:pt-0 pt-4 border-gray-600'>
           <h1 className='sm:text-3xl text-xl md:mb-10 mb-4 text-center'>SAKSHAM ASSOCIATES</h1>
 
           <div className='cursor-pointer border my-2 bg-[#f0e9db] border-gray-600 w-[70%] rounded-[0.5rem] h-8 flex justify-center items-center'>
@@ -208,13 +173,49 @@ const Page = () => {
 
           <div className="img relative rounded-[2rem] mt-6 h-[220px] md:w-[350px] w-[105%]">
             <Image
-              src="/images/living-2.jpg"
+              src="/images/living-1.jpg"
               alt="SignUp Image"
               aria-label="SignUp Image"
               fill
               className="object-cover rounded-[2rem]"
             />
           </div>
+        </div>
+
+        <div className='md:w-1/2 w-full flex justify-start items-center flex-col'>
+          <h1 className='text-3xl'>SIGN UP</h1>
+
+          <form ref={form} method='POST' action="" id='contact-form' onSubmit={handleSubmit} className='flex flex-col justify-center items-center w-full bg7 md:mx-10 mx-1 my-2 rounded-xl md:p-8 p-2'>
+            <div className='flex flex-col justify-start md:w-[90%] w-[95%]'>
+
+              <div className='my-2 flex flex-col w-full'>
+                <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} placeholder='Enter your Name' className='border border-gray-600 px-3 focus:outline-none rounded-[0.5rem] h-10' required />
+              </div>
+
+              <div className='my-2 flex flex-col w-full bg-[#f0e9db]'>
+                <PhoneInput id='phone' name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='border border-gray-600 bg-[#f0e9db] px-3 focus:outline-none rounded-[0.5rem] h-10' />
+              </div>
+
+              <div className='my-2 flex flex-col w-full'>
+                <input type="email" id='email' name="email" value={formData.email} onChange={handleChange} placeholder='Enter your Email-ID' className='border border-gray-600 px-3 focus:outline-none rounded-[0.5rem] h-10' required />
+              </div>
+
+              <div className='flex my-4 w-[100%] sm:scale-100 scale-75' style={{ transformOrigin: '0 0' }}>
+                <ReCAPTCHA
+                  sitekey={SITE_KEY}
+                  onChange={(token) => setCaptchaToken(token)}
+                  ref={recaptchaRef}
+                />
+              </div>
+
+              <p className='mt-2 text-sm'>Already have an account? <Link href="/auth/login" className='text-[#321a0c] hover:text-[#c08b00]'>Login Here</Link></p>
+
+              <div className='flex flex-wrap w-full justify-end gap-4 mt-4'>
+                <button type='submit' disabled={!captchaToken} className='button5 w-full px-4 py-1 rounded-[0.5rem] md:text-lg text-base'>Submit</button>
+                {/* <button type='reset' onClick={handleReset} className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Reset</button> */}
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>

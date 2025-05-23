@@ -30,8 +30,8 @@ const Testimonials = () => {
             try {
               return t.createdAt?.toDate
                 ? t.createdAt.toDate().toLocaleDateString("en-IN", {
-                    dateStyle: "medium",
-                  })
+                  dateStyle: "medium",
+                })
                 : "";
             } catch {
               return "";
@@ -103,7 +103,7 @@ const Testimonials = () => {
                       {testimonial.role || "Client"}
                     </p>
                     <p className="md:text-sm text-xs italic text-[#d6cece] my-1">
-                      {testimonial.rating} - 
+                      {testimonial.rating} -
                       {
                         (() => {
                           const rating = Number(testimonial.rating) || 0;
@@ -112,9 +112,9 @@ const Testimonials = () => {
                           const emptyStars = 5 - fullStars - halfStar;
                           return (
                             <>
-                              {Array(fullStars).fill("★").map((s, i) => <span key={"full"+i}>{s}</span>)}
+                              {Array(fullStars).fill("★").map((s, i) => <span key={"full" + i}>{s}</span>)}
                               {halfStar === 1 && <span key="half">½</span>}
-                              {Array(emptyStars).fill("☆").map((s, i) => <span key={"empty"+i}>{s}</span>)}
+                              {Array(emptyStars).fill("☆").map((s, i) => <span key={"empty" + i}>{s}</span>)}
                             </>
                           );
                         })()
@@ -123,17 +123,19 @@ const Testimonials = () => {
                   </div>
                 </div>
 
-                <p className="text-sm mt-4">
-                  &quot;{testimonial.testimonial
-                    ? testimonial.testimonial.slice(0, 120) + "..."
-                    : "No testimonial provided."}&quot;
-                </p>
-
-                {formattedDates[index] && (
-                  <p className="text-gray-200 font-light mt-2 text-sm">
-                    {formattedDates[index]}
+                <div className="flex flex-col justify-end">
+                  <p className="text-sm mt-4">
+                    &quot;{testimonial.testimonial
+                      ? testimonial.testimonial.slice(0, 120) + "..."
+                      : "No testimonial provided."}&quot;
                   </p>
-                )}
+
+                  {formattedDates[index] && (
+                    <p className="text-gray-200 font-light mt-2 text-sm">
+                      {formattedDates[index]}
+                    </p>
+                  )}
+                </div>
               </Link>
             </SwiperSlide>
           ))}
