@@ -42,6 +42,8 @@ export default function RootLayout({ children }) {
             gtag('config', 'G-2KE6DRQE58');
           `}
         </Script>
+        
+        <meta name="google-site-verification" content="UHWdyT7rxQKzVfmx2F_WctEg16RhKJ6mWmkhisEhQM0" />
       </head>
 
       <Seo />
