@@ -134,10 +134,10 @@ const Page = () => {
       return;
     }
 
-    await sendEmail(e);  // Call the email sending function
-    await sendEmailSelf(e);  // Call the email sending function
-    await submitQuery(e); // Call the submission function
-    await submitToGoogleSheet(e); // Call the Google Sheet Submission function
+    // await sendEmail(e);
+    // await sendEmailSelf(e);
+    // await submitQuery(e);
+    // await submitToGoogleSheet(e);
 
     // Optionally reset the form after successful submission
     handleReset();
