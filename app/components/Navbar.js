@@ -72,10 +72,10 @@ const Navbar = () => {
         </div>
 
         <div className='flex md:gap-10 gap-4 items-center justify-center z-[103]'>
-          <div className='flex gap-4'>
+          {/* <div className='flex gap-4'>
             <Link href="/auth/signup" onClick={closeMenu} className='font-light text-lg md:block hidden hover:text-[#d88e6c]'>Sign Up</Link>
             <Link href="/auth/login" onClick={closeMenu} className='font-light text-lg md:block hidden hover:text-[#d88e6c]'>Login</Link>
-          </div>
+          </div> */}
 
           <Link href="#Footer" id='helloBtn' className='md:text-lg text-xs social border rounded-[0.5rem] md:px-3 px-2 py-1 hover:border-[#D88E6C]'>Say Hello</Link>
           <button id='navBtn' className="md:text-3xl text-2xl focus:outline-none" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle Menu">{isOpen ? "✖" : "☰"}</button>
@@ -91,7 +91,7 @@ const Navbar = () => {
           <li><Link href="/Portfolio" onClick={closeMenu}>Projects</Link></li>
           <li><Link href="/About" onClick={closeMenu}>About</Link></li>
           <li><Link href="/Contact" onClick={closeMenu}>Contact</Link></li>
-          <li><Link href="/auth/login" onClick={closeMenu}>Login/SignUp</Link></li>
+          {/* <li><Link href="/auth/login" onClick={closeMenu}>Login/SignUp</Link></li> */}
         </ul>
         <div className='flex flex-col justify-center items-center gap-4'>
           <Link href="#cta" className='navButton px-2 py-1 text-base rounded-xl' onClick={closeMenu}>Get Free Quote</Link>

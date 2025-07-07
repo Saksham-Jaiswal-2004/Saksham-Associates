@@ -144,7 +144,7 @@ const Testimonials = () => {
         <div className="w-full flex justify-end my-4 mx-3">
           <Link
             href="/Testimonials"
-            className="bg-[#00000098] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2]"
+            className="bg-[#00000098] head3 px-4 py-3 rounded-xl hover:bg-[#000000b2]"
             aria-label="View more client testimonials"
           >
             View More Testimonials

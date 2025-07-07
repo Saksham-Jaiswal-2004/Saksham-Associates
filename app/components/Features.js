@@ -38,7 +38,7 @@ const Features = () => {
 
         <Link 
         href="/#contact" 
-        className="my-4 button2 px-3 md:py-2 py-1 rounded-xl md:text-base text-sm" 
+        className="my-4 button2 px-4 md:py-3 py-3 rounded-xl md:text-base text-sm" 
         aria-label="Get your personalized interior design estimate">
           Get Your Free Interior Design Estimate
         </Link>

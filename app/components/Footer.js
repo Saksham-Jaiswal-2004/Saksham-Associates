@@ -88,7 +88,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <p className='md:text-lg text-base'>&copy; Saksham Associates 2025 | All Rights Reserved</p>
+        <p className='md:text-lg text-base'>&copy; Saksham Associates {new Date().getFullYear()} | All Rights Reserved</p>
       </div>
     </div>
   )

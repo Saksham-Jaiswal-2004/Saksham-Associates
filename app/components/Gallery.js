@@ -22,7 +22,7 @@ const Gallery = () => {
       </div>
 
       <div className='flex justify-end w-full'>
-        <Link href="/Portfolio" className='my-5 button2 px-3 md:py-2 py-1 rounded-xl md:text-xl text-base' aria-label="Explore the full interior design portfolio">
+        <Link href="/Portfolio" className='my-5 button2 px-4 md:py-3 py-2 rounded-xl md:text-lg text-base' aria-label="Explore the full interior design portfolio">
           Explore Our Full Portfolio
         </Link>
       </div>

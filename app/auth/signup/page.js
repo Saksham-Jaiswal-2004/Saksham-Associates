@@ -8,6 +8,7 @@ import { MdEmail } from "react-icons/md";
 import ReCAPTCHA from "react-google-recaptcha";
 import Link from "next/link"
 import Image from 'next/image'
+import { IoMdArrowBack } from "react-icons/io";
 
 // const SITE_KEY = process.env.CAPTCHA_SITE_KEY;
 const SITE_KEY = "6Lf7KUIrAAAAAAj-UyHwyHl3KtbSVutMLwB2WM3v";
@@ -159,8 +160,11 @@ const Page = () => {
   };
 
   return (
-    <div className='min-h-screen h-fit flex justify-center items-center'>
-      <div className='h-fit lg:w-[65vw] md:w-[98vw] w-[92vw] my-10 rounded-2xl flex flex-wrap-reverse p-6 border border-gray-600'>
+    <div className='min-h-screen h-fit flex flex-col justify-center items-center'>
+      <div className='lg:w-[65vw] md:w-[98vw] w-[92vw] px-6 flex justify-start'>
+        <Link href={"/"} className='hover:text-[#D88E6C] flex gap-1 justify-center items-center font-light'><IoMdArrowBack /> Back to Home</Link>
+      </div>
+      <div className='h-fit lg:w-[65vw] md:w-[98vw] w-[92vw] mb-10 rounded-2xl flex flex-wrap-reverse p-6 border border-gray-600'>
         <div className='md:w-1/2 w-full flex flex-col justify-start items-center md:border-r md:border-t-0 border-t md:pt-0 pt-4 border-gray-600'>
           <h1 className='sm:text-3xl text-xl md:mb-10 mb-4 text-center'>SAKSHAM ASSOCIATES</h1>
 
