@@ -68,7 +68,7 @@ const Navbar = () => {
     <div>
       <nav className='flex justify-between items-center py-2 px-4 fixed top-0 left-0 w-screen z-[101]' id='navbar'>
         <div>
-          <h1 className='md:text-3xl tect-lg signature m-1'><Link href="/">Saksham Associates</Link></h1>
+          <h1 className='md:text-xl text-lg signature m-1'><Link href="/">Saksham Associates</Link></h1>
         </div>
 
         <div className='flex md:gap-10 gap-4 items-center justify-center z-[103]'>
@@ -88,7 +88,7 @@ const Navbar = () => {
 
         <ul className='flex flex-col justify-center mt-14 text-lg items-start gap-4'>
           <li><Link href="/" onClick={closeMenu}>Home</Link></li>
-          <li><Link href="/Portfolio" onClick={closeMenu}>Projects</Link></li>
+          {/* <li><Link href="/Portfolio" onClick={closeMenu}>Projects</Link></li> */}
           <li><Link href="/About" onClick={closeMenu}>About</Link></li>
           <li><Link href="/Contact" onClick={closeMenu}>Contact</Link></li>
           {/* <li><Link href="/auth/login" onClick={closeMenu}>Login/SignUp</Link></li> */}
