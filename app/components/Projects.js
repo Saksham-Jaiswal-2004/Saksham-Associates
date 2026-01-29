@@ -3,6 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import useFetchProjectsByCategory from '../hooks/fetchProjects'
+import Carousel from "@/components/ui/carousel";
 
 const Projects = () => {
 
@@ -12,6 +13,29 @@ const Projects = () => {
   const { projects: retailProjects } = useFetchProjectsByCategory("Retail Stores");
   const { projects: factoryProjects } = useFetchProjectsByCategory("Factories");
   const { projects: restaurantProjects } = useFetchProjectsByCategory("Restraunts and Cafes");
+
+  const slideData = [
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Urban Dreams",
+      button: "Explore Component",
+      src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Neon Nights",
+      button: "Explore Component",
+      src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+    {
+      title: "Desert Whispers",
+      button: "Explore Component",
+      src: "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
+  ];
 
 
   return (
@@ -25,6 +49,10 @@ const Projects = () => {
       <div className='w-full h-fit flex flex-col my-10'>
         <div className='w-full flex justify-end'>
           <h1 className='text-2xl my-6 mx-3 head'>Modern Minimalist Homes</h1>
+        </div>
+
+        <div className="relative overflow-hidden w-full h-full py-20">
+          <Carousel slides={slideData} />
         </div>
 
         <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
