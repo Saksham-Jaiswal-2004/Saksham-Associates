@@ -14,28 +14,269 @@ const Projects = () => {
   const { projects: factoryProjects } = useFetchProjectsByCategory("Factories");
   const { projects: restaurantProjects } = useFetchProjectsByCategory("Restraunts and Cafes");
 
-  const slideData = [
+  const homeData = [
     {
       title: "Mystic Mountains",
       button: "Explore Component",
-      src: "https://images.unsplash.com/photo-1494806812796-244fe51b774d?q=80&w=3534&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "/home/home 1.jpeg",
     },
     {
-      title: "Urban Dreams",
+      title: "Mystic Mountains",
       button: "Explore Component",
-      src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "/home/home 2.jpeg",
     },
     {
-      title: "Neon Nights",
+      title: "Mystic Mountains",
       button: "Explore Component",
-      src: "https://images.unsplash.com/photo-1590041794748-2d8eb73a571c?q=80&w=3456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "/home/home 3.jpeg",
     },
     {
-      title: "Desert Whispers",
+      title: "Mystic Mountains",
       button: "Explore Component",
-      src: "https://images.unsplash.com/photo-1679420437432-80cfbf88986c?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "/home/home 4.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 5.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 6.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 7.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 8.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 9.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 10.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 11.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 12.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 13.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 14.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 15.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 16.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 17.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 18.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 19.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 20.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 21.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/home/home 22.jpeg",
+    },
+  ]
+
+  const hotelData = [
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 1.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 2.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 3.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 4.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 5.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 6.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 7.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 8.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 9.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 10.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 11.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 12.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 13.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/hotel/Hotel 14.jpeg",
     },
   ];
+
+  const cafeData = [
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 1.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 2.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 3.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 4.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 5.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 6.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 7.jpeg",
+    },
+    // {
+    //   title: "Mystic Mountains",
+    //   button: "Explore Component",
+    //   src: "/cafe/cafe 8.jpeg",
+    // },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 9.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 10.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 11.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 12.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 13.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 14.jpeg",
+    },
+    {
+      title: "Mystic Mountains",
+      button: "Explore Component",
+      src: "/cafe/cafe 15.jpeg",
+    },
+  ]
 
 
   return (
@@ -48,14 +289,14 @@ const Projects = () => {
       {/* Section 1 */}
       <div className='w-full h-fit flex flex-col my-10'>
         <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Modern Minimalist Homes</h1>
+          <h1 className='text-3xl my-6 mx-3 head'>Modern Minimalist Homes</h1>
         </div>
 
         <div className="relative overflow-hidden w-full h-full py-20">
-          <Carousel slides={slideData} />
+          <Carousel slides={homeData} />
         </div>
 
-        <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
+        {/* <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {Array.isArray(residentialProjects) && residentialProjects.slice(0,4).map((project) => (
             <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
@@ -79,15 +320,15 @@ const Projects = () => {
               </Link>
             </div>
           ))}
-        </div>
+        </div> */}
 
-        <div className='w-[95%] flex justify-end my-2 mx-1'>
+        {/* <div className='w-[95%] flex justify-end my-2 mx-1'>
           <Link href="/Residential" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div>
+        </div> */}
       </div>
 
       {/* Section 2 */}
-      <div className='w-full h-fit flex flex-col'>
+      {/* <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
           <h1 className='text-2xl my-6 mx-3 head'>Smart Workspaces</h1>
         </div>
@@ -121,15 +362,19 @@ const Projects = () => {
         <div className='w-[95%] flex justify-end my-2 mx-1'>
           <Link href="/Commercial" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Section 3 */}
       <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Stylish Hotels</h1>
+          <h1 className='text-3xl my-6 mx-3 head'>Stylish Hotels</h1>
         </div>
 
-        <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
+        <div className="relative overflow-hidden w-full h-full py-20">
+          <Carousel slides={hotelData} />
+        </div>
+
+        {/* <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {Array.isArray(hospitalityProjects) && hospitalityProjects.slice(0,4).map((project) => (
             <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
@@ -157,11 +402,11 @@ const Projects = () => {
 
         <div className='w-[95%] flex justify-end my-2 mx-1'>
           <Link href="/Hospitality" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div>
+        </div> */}
       </div>
 
       {/* Section 4 */}
-      <div className='w-full h-fit flex flex-col'>
+      {/* <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
           <h1 className='text-2xl my-6 mx-3 head'>Industrial Spaces</h1>
         </div>
@@ -195,10 +440,10 @@ const Projects = () => {
         <div className='w-[95%] flex justify-end my-2 mx-1'>
           <Link href="/Retail" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Section 5 */}
-      <div className='w-full h-fit flex flex-col'>
+      {/* <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
           <h1 className='text-2xl my-6 mx-3 head'>Factories and Industrial Spaces</h1>
         </div>
@@ -232,15 +477,19 @@ const Projects = () => {
         <div className='w-[95%] flex justify-end my-2 mx-1'>
           <Link href="/Factories" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Section 6 */}
       <div className='w-full h-fit flex flex-col'>
         <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Cozy Cafés & Restaurants</h1>
+          <h1 className='text-3xl my-6 mx-3 head'>Cozy Cafés & Restaurants</h1>
         </div>
 
-        <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
+        <div className="relative overflow-hidden w-full h-full py-20">
+          <Carousel slides={cafeData} />
+        </div>
+
+        {/* <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
           {Array.isArray(restaurantProjects) && restaurantProjects.slice(0,4).map((project) => (
             <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
               <Link href={`Portfolio/${project.id}`}>
@@ -268,7 +517,7 @@ const Projects = () => {
 
         <div className='w-[95%] flex justify-end my-2 mx-1'>
           <Link href="/Restaurants" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div>
+        </div> */}
       </div>
     </div>
   )

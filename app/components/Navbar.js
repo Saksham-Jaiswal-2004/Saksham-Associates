@@ -88,7 +88,7 @@ const Navbar = () => {
 
         <ul className='flex flex-col justify-center mt-14 text-lg items-start gap-4'>
           <li><Link href="/" onClick={closeMenu}>Home</Link></li>
-          {/* <li><Link href="/Portfolio" onClick={closeMenu}>Projects</Link></li> */}
+          <li><Link href="/Portfolio" onClick={closeMenu}>Projects</Link></li>
           <li><Link href="/About" onClick={closeMenu}>About</Link></li>
           <li><Link href="/Contact" onClick={closeMenu}>Contact</Link></li>
           {/* <li><Link href="/auth/login" onClick={closeMenu}>Login/SignUp</Link></li> */}
