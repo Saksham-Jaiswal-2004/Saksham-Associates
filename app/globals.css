@@ -27,16 +27,24 @@ body {
   overflow-x: hidden;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Playfair Display', serif;
 }
 
 
-body, p, span, li {
+body,
+p,
+span,
+li {
   font-family: 'Lato', sans-serif;
 }
 
@@ -45,20 +53,20 @@ body, p, span, li {
   font-weight: 400;
 }
 
-.head{
+.head {
   color: var(--deep-green);
 }
 
-.head2{
+.head2 {
   color: var(--brown);
 }
 
-.head3{
+.head3 {
   color: var(--light-gray);
 }
 
 /* Navbar */
-.scrolled{
+.scrolled {
   color: var(--beige);
   background-color: #333333;
   backdrop-filter: blur(5);
@@ -73,21 +81,21 @@ body, p, span, li {
   color: var(--beige);
 }
 
-#navbar{
+#navbar {
   color: var(--beige);
   transition: all ease-in-out 300ms;
 }
 
-.navButton{
+.navButton {
   background-color: var(--deep-green);
   color: var(--light-gray);
 }
 
-.navButton:hover{
+.navButton:hover {
   background-color: #00373a;
 }
 
-li:hover{
+li:hover {
   color: var(--coral);
 }
 
@@ -96,47 +104,49 @@ li:hover{
 }
 
 /* Hero Section */
-.bg1{
+.bg1 {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/images/homeHero.avif") no-repeat center center/cover;
   background-attachment: fixed;
 }
 
 /* Features Section */
-.card1{
+.card1 {
   background-color: var(--green);
   border-radius: 1em;
 }
 
-.card1 p{
+.card1 p {
   color: var(--light-gray);
 }
 
-.button2{
+.button2 {
   background-color: var(--deep-green);
   color: var(--light-gray);
 }
 
-.button2:hover{
+.button2:hover {
   background-color: #006167;
 }
 
 /* Gallery Section */
 
 /* Benefits Section */
-.bg6{
+.bg6 {
   background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://cms.interiorcompany.com/wp-content/uploads/2024/02/the-vibrant-lively-mint-green-coral-colours-to-go-with-mint-green.jpg") no-repeat center center/cover;
   background-attachment: fixed;
   color: var(--beige);
 }
-.bg6 h1{
+
+.bg6 h1 {
   color: var(--light-gray);
 }
-.button3{
+
+.button3 {
   background-color: var(--coral);
   color: var(--light-gray);
 }
 
-.button3:hover{
+.button3:hover {
   background-color: #e87f4e;
 }
 
@@ -157,62 +167,63 @@ li:hover{
   padding: 1em;
 }
 
-.swiper-slide:hover{
+.swiper-slide:hover {
   background-color: rgb(86, 86, 86);
 }
 
-.swiper-button-prev::after{
+.swiper-button-prev::after {
   color: #d9ae9666;
 }
 
-.swiper-button-prev:hover .swiper-button-prev::after{
+.swiper-button-prev:hover .swiper-button-prev::after {
   color: var(--coral);
 }
 
-.swiper-button-next::after{
+.swiper-button-next::after {
   color: #d9ae9666;
 }
 
 /* CTA */
-.bg4{
+.bg4 {
   background-color: var(--teal);
   color: var(--beige);
 }
 
-.bg4 h1{
+.bg4 h1 {
   color: var(--light-gray);
 }
 
-.button4{
+.button4 {
   background-color: var(--gold);
   color: var(--beige);
 }
 
-.button4:hover{
+.button4:hover {
   background-color: #d19b15;
 }
 
 /* Contact Form */
-.bg5{
+.bg5 {
   background-color: var(--deep-green);
   color: var(--beige);
 }
 
-.bg7{
+.bg7 {
   background: none;
   color: var(--deep-green);
 }
 
-.bg5 input, textarea{
+.bg5 input,
+textarea {
   background: none;
   border-bottom: 1px solid var(--light-gray);
 }
 
-.bg7 input{
+.bg7 input {
   background: #f0e9db;
 }
 
-.bg7 input::placeholder{
+.bg7 input::placeholder {
   color: var(--charcoal);
   opacity: 80%;
 }
@@ -224,55 +235,55 @@ li:hover{
   padding: 8px;
 }
 
-#phone:focus{
+#phone:focus {
   outline: none;
 }
 
-.button5{
+.button5 {
   background: var(--teal);
   color: var(--beige);
 }
 
-.button5:hover{
+.button5:hover {
   background: var(--deep-green);
   /* color: #E4DDCF; */
 }
 
 /* Footer */
-.bg3{
+.bg3 {
   background-color: var(--charcoal);
   color: var(--beige);
 }
 
-.social{
+.social {
   cursor: pointer;
 }
 
-.social:hover{
+.social:hover {
   color: var(--coral);
   /* border: 1px solid var(--coral); */
 }
 
-.link li{
+.link li {
   cursor: pointer;
 }
 
-.link li:hover{
+.link li:hover {
   color: var(--coral);
 }
 
 /* About Hero */
-.darkTxt{
+.darkTxt {
   color: var(--charcoal);
 }
 
 /* Projects */
-.bg2{
+.bg2 {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://cms.interiorcompany.com/wp-content/uploads/2024/02/the-vibrant-lively-mint-green-coral-colours-to-go-with-mint-green.jpg") no-repeat center center/cover;
   background-attachment: fixed;
 }
 
-.card3{
+.card3 {
   background-color: var(--green);
   border-radius: 15px;
   overflow: hidden;
@@ -282,31 +293,31 @@ li:hover{
   cursor: pointer;
 }
 
-.image{
+.image {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
 
-.card3 h1{
+.card3 h1 {
   color: var(--beige);
 }
 
-.card3 p{
+.card3 p {
   color: var(--light-gray);
 }
 
-.card3:hover{
+.card3:hover {
   transform: scale(1.05);
   box-shadow: 0 20px 18px rgba(0, 0, 0, 0.2);
 }
 
-.image:hover{
+.image:hover {
   transform: scale(1.05);
   box-shadow: 0 20px 25px rgba(0, 0, 0, 0.2);
 }
 
 /* Individual Testimonials */
-.testimonial{
+.testimonial {
   background-color: #00494d;
   color: var(--light-gray);
 }
@@ -352,13 +363,16 @@ li:hover{
 ::-webkit-scrollbar {
   width: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: #FAFAFA;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #C08B00;
   border-radius: 3px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #321A0C;
 }
@@ -375,31 +389,49 @@ li:hover{
   font-size: 0.85rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
   padding: 1.25rem 2.5rem;
-  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-  position: relative;
-  overflow: hidden;
   border: 1px solid var(--charcoal);
+
   background: transparent;
   color: var(--charcoal);
+  text-decoration: none;
   cursor: pointer;
+
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+
+  transition:
+    color 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+    transform 0.3s ease;
+}
+
+.luxury-btn span {
+  position: relative;
+  z-index: 2;
 }
 
 .luxury-btn::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  inset: 0;
+
   background: var(--charcoal);
+
   transform: translateY(100%);
   transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
-  z-index: -1;
+
+  z-index: 1;
 }
 
 .luxury-btn:hover {
   color: var(--light-gray);
+  transform: translateY(-2px);
 }
 
 .luxury-btn:hover::before {
@@ -446,4 +478,4 @@ li:hover{
   font-family: inherit;
   font-size: 1rem;
   padding-left: 0.5rem;
-}
+}

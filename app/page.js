@@ -160,10 +160,10 @@ export default function Home() {
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link href="#contact" className="luxury-btn">
-                  Begin A Project
+                  <span>Begin A Project</span>
                 </Link>
                 <Link href="/Portfolio" className="luxury-btn border-luxury-gold text-[#C08B00] hover:text-white">
-                  Browse Works
+                  <span>Browse Works</span>
                 </Link>
               </div>
             </motion.div>
@@ -446,7 +446,7 @@ export default function Home() {
                 </h2>
               </div>
               <Link href="/Portfolio" className="luxury-btn">
-                View Entire Portfolio
+                <span>View Entire Portfolio</span>
               </Link>
             </div>
 

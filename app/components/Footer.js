@@ -19,15 +19,15 @@ const Footer = () => {
 
   return (
     <footer className="bg-[#1C1917] text-[#FAF9F6] border-t border-stone-900 pt-20 pb-8 px-6 md:px-12 relative overflow-hidden" id="Footer">
-      
+
       {/* Decorative subtle background visual pattern */}
       <div className="absolute -right-20 -bottom-20 w-80 h-80 rounded-full bg-[#FAF9F6]/5 filter blur-[80px] pointer-events-none" />
-      
+
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 items-start relative z-10">
-        
+
         {/* Column 1: Brand Info (Spans 4 cols on desktop) */}
         <div className="lg:col-span-4 flex flex-col gap-6">
-          
+
           {/* Logo brand signature */}
           <Link href="/" className="flex items-center gap-3 w-fit group">
             <div className="relative w-10 h-10 overflow-hidden rounded-full border border-luxury-gold/30 group-hover:scale-105 transition-transform duration-300">
@@ -42,7 +42,7 @@ const Footer = () => {
               <span className="font-serif tracking-widest text-lg font-semibold text-[#FAF9F6] leading-tight">
                 SAKSHAM
               </span>
-              <span className="font-sans tracking-[0.3em] text-[10px] text-[#C08B00] uppercase font-bold leading-tight">
+              <span className="font-sans tracking-[0.375em] text-[12px] text-[#C08B00] uppercase font-bold leading-tight">
                 ASSOCIATES
               </span>
             </div>
@@ -94,17 +94,17 @@ const Footer = () => {
         <div className="lg:col-span-3 flex flex-col gap-6">
           <div className="flex flex-col gap-3 font-sans">
             <span className="text-[#C08B00] text-[10px] tracking-[0.25em] uppercase font-semibold">Begin Project</span>
-            <Link 
-              href="/Contact" 
+            <Link
+              href="/Contact"
               className="luxury-btn luxury-btn-dark py-3 px-4 text-center text-xs tracking-widest uppercase block transition-all duration-300 rounded-none w-full"
             >
-              Book Spatial Audit
+              <span>Book Spatial Audit</span>
             </Link>
           </div>
 
           <div className="flex flex-col gap-3 font-sans">
             <span className="text-[#C08B00] text-[10px] tracking-[0.25em] uppercase font-semibold">Social Archive</span>
-            
+
             {/* Social Icons row */}
             <div className="flex flex-wrap gap-3 text-lg mt-1">
               <a href="https://wa.me/919038415889" aria-label="WhatsApp" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full border border-stone-800 hover:border-[#D88E6C] hover:text-[#D88E6C] flex items-center justify-center transition-all duration-300"><FaWhatsapp /></a>
@@ -115,10 +115,10 @@ const Footer = () => {
             </div>
 
             {/* LinkTree Button */}
-            <a 
-              href="http://linktr.ee/sakshamassociates" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="http://linktr.ee/sakshamassociates"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 text-xs border border-stone-800 hover:border-[#D88E6C] text-stone-300 hover:text-[#D88E6C] py-2 px-3 transition-all duration-300 font-sans mt-1 w-full"
             >
               <PiLinktreeLogoBold />
@@ -136,7 +136,7 @@ const Footer = () => {
         </p>
 
         {/* Back to top smooth scroll button */}
-        <button 
+        <button
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="text-stone-500 hover:text-[#C08B00] text-[10px] tracking-[0.2em] uppercase transition-colors duration-300 flex items-center gap-2 focus:outline-none"
         >
