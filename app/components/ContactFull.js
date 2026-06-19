@@ -203,23 +203,23 @@ const ContactFull = () => {
             <div className='flex flex-col justify-start md:w-[65%] w-[80%]'>
 
               <div className='my-5 flex flex-col w-full'>
-                <label htmlFor="name" className='text-lg py-1 head3'>Name</label>
-                <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} placeholder='Enter your name' className='focus:outline-none focus:border-b' required />
+                <label htmlFor="name" className='text-xs font-sans tracking-widest uppercase py-1 text-stone-300'>Name</label>
+                <input type="text" id='name' name='name' value={formData.name} onChange={handleChange} placeholder='Enter your name' className='focus:outline-none focus:border-white bg-transparent border-b border-stone-500/40 text-white py-2 placeholder-stone-500 transition-colors' required />
               </div>
 
               <div className='my-5 flex flex-col w-full'>
-                <label htmlFor="phone" className='text-lg py-1 head3'>Phone</label>
-                <PhoneInput id='phone' name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='focus:outline-none focus:border-b' />
+                <label htmlFor="phone" className='text-xs font-sans tracking-widest uppercase py-1 text-stone-300'>Phone</label>
+                <PhoneInput id='phone' name="phone" defaultCountry="IN" value={phoneNumber} onChange={setPhoneNumber} international countrySelectProps={{ unicodeflagclassname: 'emoji-flag' }} className='focus:outline-none focus:border-white bg-transparent border-b border-stone-500/40 text-white py-2 placeholder-stone-500 transition-colors' />
               </div>
 
               <div className='my-5 flex flex-col w-full'>
-                <label htmlFor="email" className='text-lg py-1 head3'>Email</label>
-                <input type="email" id='email' name="email" value={formData.email} onChange={handleChange} placeholder='Enter your email-id' className='focus:outline-none focus:border-b' required />
+                <label htmlFor="email" className='text-xs font-sans tracking-widest uppercase py-1 text-stone-300'>Email</label>
+                <input type="email" id='email' name="email" value={formData.email} onChange={handleChange} placeholder='Enter your email-id' className='focus:outline-none focus:border-white bg-transparent border-b border-stone-500/40 text-white py-2 placeholder-stone-500 transition-colors' required />
               </div>
 
               <div className='my-5 flex flex-col w-full'>
-                <label htmlFor="query" className='text-lg py-1 head3'>Query</label>
-                <textarea id='message' name="message" value={formData.message} onChange={handleChange} placeholder='Enter your queries...' className='focus:outline-none focus:border-b' required></textarea>
+                <label htmlFor="query" className='text-xs font-sans tracking-widest uppercase py-1 text-stone-300'>Query</label>
+                <textarea id='message' name="message" value={formData.message} onChange={handleChange} placeholder='Enter your queries...' className='focus:outline-none focus:border-white bg-transparent border-b border-stone-500/40 text-white py-2 placeholder-stone-500 transition-colors min-h-[80px]' required></textarea>
               </div>
 
               <div className='flex my-4 w-[100%] sm:scale-100 scale-75' style={{ transformOrigin: '0 0' }}>
@@ -230,9 +230,9 @@ const ContactFull = () => {
                 />
               </div>
 
-              <div className='flex flex-wrap w-full justify-end gap-4 mt-4'>
-                <button type='submit' disabled={!captchaToken} className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Submit</button>
-                <button type='reset' onClick={handleReset} className='button3 px-4 py-1 rounded-xl md:text-lg text-base'>Reset</button>
+              <div className='flex flex-wrap w-full justify-end gap-4 mt-6'>
+                <button type='submit' disabled={!captchaToken} className='button3 px-6 py-2 rounded-xl text-sm tracking-widest uppercase transition-all disabled:opacity-40 disabled:cursor-not-allowed'>Submit</button>
+                <button type='reset' onClick={handleReset} className='button3 px-6 py-2 rounded-xl text-sm tracking-widest uppercase transition-all'>Reset</button>
               </div>
             </div>
           </form>

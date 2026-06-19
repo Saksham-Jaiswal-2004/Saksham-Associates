@@ -310,3 +310,140 @@ li:hover{
   background-color: #00494d;
   color: var(--light-gray);
 }
+
+/* Luxury Editorial Design Utilities */
+.editorial-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: 300;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+}
+
+.editorial-serif-italic {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+.editorial-subtitle {
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.75rem;
+  color: var(--teal);
+}
+
+.text-gold-accent {
+  color: #C08B00;
+}
+
+.text-gold-accent-light {
+  color: #D88E6C;
+}
+
+.border-luxury-muted {
+  border-color: rgba(73, 90, 84, 0.15);
+}
+
+.border-luxury-gold {
+  border-color: rgba(192, 139, 0, 0.3);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAFAFA;
+}
+::-webkit-scrollbar-thumb {
+  background: #C08B00;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #321A0C;
+}
+
+/* Custom selection */
+::selection {
+  background-color: var(--deep-green);
+  color: var(--beige);
+}
+
+/* Interactive elements */
+.luxury-btn {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 1.25rem 2.5rem;
+  transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--charcoal);
+  background: transparent;
+  color: var(--charcoal);
+  cursor: pointer;
+}
+
+.luxury-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--charcoal);
+  transform: translateY(100%);
+  transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  z-index: -1;
+}
+
+.luxury-btn:hover {
+  color: var(--light-gray);
+}
+
+.luxury-btn:hover::before {
+  transform: translateY(0);
+}
+
+.luxury-btn-dark {
+  border-color: var(--beige);
+  color: var(--beige);
+}
+
+.luxury-btn-dark::before {
+  background: var(--beige);
+}
+
+.luxury-btn-dark:hover {
+  color: var(--charcoal);
+}
+
+/* Text Masking Reveal */
+.text-mask-reveal {
+  overflow: hidden;
+  position: relative;
+}
+
+.text-mask-reveal span {
+  display: block;
+  transform: translateY(100%);
+  animation: maskReveal 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes maskReveal {
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* PhoneInput overrides */
+.PhoneInput input {
+  background: transparent !important;
+  color: white !important;
+  border: none !important;
+  outline: none !important;
+  font-family: inherit;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}

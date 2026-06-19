@@ -1,15 +1,25 @@
+"use client"
 import React from 'react'
+import Seo from '../components/SEO'
+import { motion } from 'framer-motion'
 import Projects from '../components/Projects'
-import Testimonials from '../components/Testimonials'
-import CTA from '../components/CTA'
-import ContactFull from '../components/ContactFull'
 import Process from '../components/Process'
 import Future from '../components/Future'
-import Link from 'next/link'
-import Seo from '../components/SEO';
+import Testimonials from '../components/Testimonials'
+import ContactFull from '../components/ContactFull'
 import Image from 'next/image'
+import Link from 'next/link'
 
-const page = () => {
+export default function PortfolioPage() {
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: [0.25, 0.1, 0.25, 1.0] }
+    }
+  };
+
   return (
     <>
       <Seo
@@ -19,50 +29,114 @@ const page = () => {
         image="/images/SALOGO.svg"
         keywords="portfolio, interior design projects, Kolkata, Saksham Associates, residential, commercial, hospitality, retail"
       />
-      <div className='h-fit'>
-        <div className='h-screen flex justify-start items-end bg2'>
-          <div className='absolute h-full md:w-[55%] w-[100%] bg-[#0000009e]'></div>
-          <h1 className='md:text-6xl text-4xl mx-6 my-28 z-[2] head3' aria-label="Spaces That Speak Your Style">Spaces That Speak Your Style</h1>
-        </div>
 
-        <div className='h-fit flex flex-wrap'>
-          <div className='md:w-1/2 w-full'>
+      <div className="bg-[#FAF9F6] text-[#1C1917] overflow-x-clip min-h-screen pt-32 pb-20">
+        
+        {/* Editorial Header */}
+        <section className="px-6 md:px-12 max-w-7xl mx-auto mb-20">
+          <motion.div 
+            initial="hidden"
+            animate="visible"
+            variants={fadeInUp}
+            className="flex flex-col gap-4"
+          >
+            <span className="editorial-subtitle">THE ARCHIVE</span>
+            <h1 className="editorial-title text-5xl md:text-7xl text-[#00494d] leading-none tracking-wide">
+              Spaces That Speak <br />
+              <span className="editorial-serif-italic font-normal">Your Unique Style.</span>
+            </h1>
+            <div className="w-24 h-[1px] bg-[#C08B00] mt-4" />
+          </motion.div>
+        </section>
+
+        {/* Narrative and Hero collage */}
+        <section className="px-6 md:px-12 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center mb-28">
+          
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.98 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            className="lg:col-span-7 relative aspect-[16/10] overflow-hidden rounded-lg shadow-xl"
+          >
             <Image
               src="https://miro.medium.com/v2/resize:fit:1024/1*atLWcBROZkzkfn8QYhw2ow.png"
-              alt="projects image"
-              aria-label="Portfolio project showcase"
-              width={1024}
-              height={600}
-              className="object-cover w-full h-auto"
+              alt="Saksham Associates design layout blueprint"
+              fill
+              className="object-cover hover:scale-105 transition-transform duration-[1.5s] filter contrast-105 brightness-95"
               unoptimized
             />
-          </div>
+          </motion.div>
 
-          <div className='md:w-1/2 w-full flex flex-col justify-center px-6'>
-            <h1 className='text-4xl my-4 head'>Designs Tailored to Perfection</h1>
-            <p className='text-lg w-[90%]'>Every project we design reflects a unique story. We blend elegance, practicality, and innovation to create interiors that leave a lasting impression.</p>
-            <div className='text-lg my-4 mx-4'>
-              <p className='my-1'>• Expertise across Residential, Commercial, and Luxury spaces.</p>
-              <p className='my-1'>• Focus on both modern and timeless designs.</p>
-              <p className='my-1'>• Over 100+ completed projects</p>
+          <motion.div 
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.2 }}
+            variants={fadeInUp}
+            className="lg:col-span-5 flex flex-col gap-6"
+          >
+            <h2 className="editorial-title text-3xl text-[#00494d] font-light leading-snug">
+              Designs Tailored <br />
+              <span className="editorial-serif-italic font-normal">to Perfection.</span>
+            </h2>
+            <p className="text-stone-600 text-sm md:text-base leading-relaxed font-sans">
+              Every space has a signature. At <span className="text-[#C08B00] font-semibold">Saksham Associates</span>, we blend classic architectural restraint with modern functionality, delivering residences and commercial headquarters that stand as physical reflections of your lifestyle.
+            </p>
+            <div className="flex flex-col gap-2 text-stone-700 text-sm font-sans mt-2 border-l border-luxury-gold pl-4 py-1">
+              <p>• 100+ Premium turnkey handovers across Kolkata.</p>
+              <p>• Bespoke joinery, custom daylight projection models.</p>
+              <p>• Residential, commercial, and boutique hospitality typologies.</p>
             </div>
+            <div className="mt-4 flex gap-4">
+              <Link href="#contact" className="luxury-btn">
+                Request Quote
+              </Link>
+            </div>
+          </motion.div>
 
-            <div className="my-6 mx-6 w-full flex flex-wrap justify-start items-start gap-4">
-              <Link  href="#cta" className="button2 px-3 py-2 rounded-xl text-base">Get Quote</Link>
-              <Link href="/Portfolio#hiw" className="button3 px-3 py-2 rounded-xl text-base">How We Do It</Link>
+        </section>
+
+        {/* Dynamic Project Carousel Blocks */}
+        <section className="border-t border-luxury-muted">
+          <Projects />
+        </section>
+
+        {/* Process Roadmap */}
+        <section className="border-t border-luxury-muted">
+          <Process />
+        </section>
+
+        {/* Future Vision */}
+        <section className="border-t border-luxury-muted">
+          <Future />
+        </section>
+
+        {/* Client Trust */}
+        <section className="border-t border-luxury-muted">
+          <Testimonials />
+        </section>
+
+        {/* Consultation form */}
+        <section className="py-24 bg-[#00494d] text-white" id="contact">
+          <div className="max-w-6xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center">
+            <div className="lg:col-span-5 flex flex-col gap-6">
+              <span className="text-stone-300 text-xs font-sans tracking-[0.3em] uppercase">BOOK AN INVITATION</span>
+              <h2 className="editorial-title text-4xl md:text-5xl text-white leading-tight font-light">
+                Let&apos;s build your <br />
+                <span className="editorial-serif-italic text-stone-200">dream space.</span>
+              </h2>
+              <div className="w-16 h-[1px] bg-[#D88E6C] my-2" />
+              <p className="text-stone-300 text-sm leading-relaxed font-sans max-w-sm">
+                Discuss your next project address in Kolkata with <span className="text-[#C08B00] font-semibold">Saksham Associates</span>. Let us curate your spatial experience.
+              </p>
+            </div>
+            <div className="lg:col-span-7 bg-[#495A54]/20 p-6 md:p-10 rounded-2xl border border-[#495A54]/50 shadow-2xl backdrop-blur-sm">
+              <ContactFull />
             </div>
           </div>
-        </div>
+        </section>
 
-        <Projects/>
-        <Process/>
-        <Future/>
-        <Testimonials/>
-        <CTA/>
-        <ContactFull/>
       </div>
     </>
   )
 }
-
-export default page
