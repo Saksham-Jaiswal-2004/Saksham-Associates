@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const CTA = () => {
   return (
-    <div className="max-w-6xl mx-auto my-16 md:my-28 px-4 md:px-6 relative z-10" id="cta">
+    <div className="max-w-6xl mx-auto my-0 md:my-28 px-4 md:px-6 relative z-10" id="cta">
       <div className="relative overflow-hidden rounded-2xl bg-[#00494d] border border-white/10 px-8 py-16 md:py-20 text-center flex flex-col items-center justify-center shadow-2xl">
 
         {/* Subtle background decorative radial gradient blur */}

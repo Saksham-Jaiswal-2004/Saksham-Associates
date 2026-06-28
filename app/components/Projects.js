@@ -1,526 +1,312 @@
 "use client"
-import React from 'react'
+import React, { useState, useRef, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import useFetchProjectsByCategory from '../hooks/fetchProjects'
-import Carousel from "@/components/ui/carousel";
+import { motion, useInView, AnimatePresence } from 'framer-motion'
 
-const Projects = () => {
+const galleryCategories = [
+  {
+    id: "homes",
+    label: "RESIDENTIAL",
+    title: "Modern Minimalist Homes",
+    description: "Curated residences where functional living meets organic materiality.",
+    images: [
+      { src: "/home/home 1.jpeg", caption: "01" },
+      { src: "/home/home 2.jpeg", caption: "02" },
+      { src: "/home/home 3.jpeg", caption: "03" },
+      { src: "/home/home 4.jpeg", caption: "04" },
+      { src: "/home/home 5.jpeg", caption: "05" },
+      { src: "/home/home 6.jpeg", caption: "06" },
+      { src: "/home/home 7.jpeg", caption: "07" },
+      { src: "/home/home 8.jpeg", caption: "08" },
+      { src: "/home/home 9.jpeg", caption: "09" },
+      { src: "/home/home 10.jpeg", caption: "10" },
+      { src: "/home/home 11.jpeg", caption: "11" },
+      { src: "/home/home 12.jpeg", caption: "12" },
+    ]
+  },
+  {
+    id: "hotels",
+    label: "HOSPITALITY",
+    title: "Stylish Hotels",
+    description: "Atmospheric hotel interiors crafted for immersive sensory journeys.",
+    images: [
+      { src: "/hotel/Hotel 1.jpeg", caption: "01" },
+      { src: "/hotel/Hotel 2.jpeg", caption: "02" },
+      { src: "/hotel/Hotel 3.jpeg", caption: "03" },
+      { src: "/hotel/Hotel 4.jpeg", caption: "04" },
+      { src: "/hotel/Hotel 5.jpeg", caption: "05" },
+      { src: "/hotel/Hotel 6.jpeg", caption: "06" },
+      { src: "/hotel/Hotel 7.jpeg", caption: "07" },
+      { src: "/hotel/Hotel 8.jpeg", caption: "08" },
+    ]
+  },
+  {
+    id: "cafes",
+    label: "CULINARY",
+    title: "Cozy Cafés & Restaurants",
+    description: "Dining environments that fuse intimate lighting with acoustic storytelling.",
+    images: [
+      { src: "/cafe/cafe 1.jpeg", caption: "01" },
+      { src: "/cafe/cafe 2.jpeg", caption: "02" },
+      { src: "/cafe/cafe 3.jpeg", caption: "03" },
+      { src: "/cafe/cafe 4.jpeg", caption: "04" },
+      { src: "/cafe/cafe 5.jpeg", caption: "05" },
+      { src: "/cafe/cafe 6.jpeg", caption: "06" },
+      { src: "/cafe/cafe 7.jpeg", caption: "07" },
+      { src: "/cafe/cafe 9.jpeg", caption: "08" },
+    ]
+  }
+]
 
-  const { projects: residentialProjects } = useFetchProjectsByCategory("Residential");
-  const { projects: commercialProjects } = useFetchProjectsByCategory("Commercial");
-  const { projects: hospitalityProjects } = useFetchProjectsByCategory("Hospitality");
-  const { projects: retailProjects } = useFetchProjectsByCategory("Retail Stores");
-  const { projects: factoryProjects } = useFetchProjectsByCategory("Factories");
-  const { projects: restaurantProjects } = useFetchProjectsByCategory("Restraunts and Cafes");
+const fadeInUp = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.7, ease: [0.25, 0.1, 0.25, 1.0] } }
+}
 
-  const homeData = [
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 1.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 2.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 3.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 4.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 5.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 6.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 7.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 8.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 9.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 10.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 11.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 12.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 13.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 14.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 15.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 16.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 17.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 18.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 19.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 20.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 21.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/home/home 22.jpeg",
-    },
-  ]
+export default function Projects() {
+  const [activeCategory, setActiveCategory] = useState(0)
+  const [activeIndex, setActiveIndex] = useState(0)
+  const [isDragging, setIsDragging] = useState(false)
+  const dragStartX = useRef(0)
+  const dragStartIndex = useRef(0)
+  const trackRef = useRef(null)
+  const category = galleryCategories[activeCategory]
+  const images = category.images
 
-  const hotelData = [
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 1.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 2.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 3.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 4.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 5.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 6.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 7.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 8.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 9.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 10.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 11.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 12.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 13.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/hotel/Hotel 14.jpeg",
-    },
-  ];
+  // Reset active index when category changes
+  useEffect(() => {
+    setActiveIndex(0)
+  }, [activeCategory])
 
-  const cafeData = [
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 1.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 2.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 3.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 4.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 5.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 6.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 7.jpeg",
-    },
-    // {
-    //   title: "Mystic Mountains",
-    //   button: "Explore Component",
-    //   src: "/cafe/cafe 8.jpeg",
-    // },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 9.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 10.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 11.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 12.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 13.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 14.jpeg",
-    },
-    {
-      title: "Mystic Mountains",
-      button: "Explore Component",
-      src: "/cafe/cafe 15.jpeg",
-    },
-  ]
+  const handlePrev = useCallback(() => {
+    setActiveIndex(i => (i - 1 + images.length) % images.length)
+  }, [images.length])
 
+  const handleNext = useCallback(() => {
+    setActiveIndex(i => (i + 1) % images.length)
+  }, [images.length])
+
+  // Keyboard navigation
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.key === 'ArrowLeft') handlePrev()
+      if (e.key === 'ArrowRight') handleNext()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [handlePrev, handleNext])
+
+  // Drag/swipe
+  const handleDragStart = (e) => {
+    setIsDragging(false)
+    dragStartX.current = e.type === 'touchstart' ? e.touches[0].clientX : e.clientX
+    dragStartIndex.current = activeIndex
+  }
+
+  const handleDragEnd = (e) => {
+    const endX = e.type === 'touchend' ? e.changedTouches[0].clientX : e.clientX
+    const diff = dragStartX.current - endX
+    if (Math.abs(diff) > 50) {
+      diff > 0 ? handleNext() : handlePrev()
+    }
+  }
 
   return (
-    <div className='h-fit md:my-28 my-24 flex flex-col justify-center items-center' id='projects'>
-      <div className='w-full flex justify-start'>
-        <h1 className='text-5xl my-14 head'>Showcasing Versatility and Elegance</h1>
-      </div>
+    <div className="py-28 md:py-40 px-6 md:px-12" id="projects">
+      <div className="max-w-7xl mx-auto">
 
-      {/* Cards */}
-      {/* Section 1 */}
-      <div className='w-full h-fit flex flex-col my-10'>
-        <div className='w-full flex justify-end'>
-          <h1 className='text-3xl my-6 mx-3 head'>Modern Minimalist Homes</h1>
-        </div>
+        {/* Section Header */}
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+          variants={fadeInUp}
+          className="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-8"
+        >
+          <div className="flex flex-col gap-4">
+            <span className="editorial-subtitle">VISUAL ARCHIVE</span>
+            <h2 className="editorial-title text-4xl md:text-5xl text-[#00494d]">
+              Showcasing Versatility<br />
+              <span className="editorial-serif-italic font-normal">and Elegance.</span>
+            </h2>
+          </div>
+          <p className="text-stone-500 text-sm font-sans max-w-xs leading-relaxed">
+            A curated selection across our major typologies — each space a dialogue between form and purpose.
+          </p>
+        </motion.div>
 
-        <div className="relative overflow-hidden w-full h-full py-20">
-          <Carousel slides={homeData} />
-        </div>
+        {/* Category Navigation */}
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+          variants={fadeInUp}
+          className="flex flex-wrap gap-0 mb-12 border-b border-luxury-muted"
+        >
+          {galleryCategories.map((cat, i) => (
+            <button
+              key={cat.id}
+              onClick={() => setActiveCategory(i)}
+              className={`relative py-3 px-6 text-xs font-sans tracking-[0.2em] uppercase transition-all duration-300 focus:outline-none ${activeCategory === i
+                  ? 'text-[#00494d]'
+                  : 'text-stone-400 hover:text-stone-600'
+                }`}
+            >
+              {cat.label}
+              {activeCategory === i && (
+                <motion.div
+                  layoutId="categoryUnderline"
+                  className="absolute bottom-0 left-0 right-0 h-[2px] bg-[#C08B00]"
+                  transition={{ type: 'spring', stiffness: 400, damping: 30 }}
+                />
+              )}
+            </button>
+          ))}
+        </motion.div>
 
-        {/* <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {Array.isArray(residentialProjects) && residentialProjects.slice(0,4).map((project) => (
-            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
-              <Link href={`Portfolio/${project.id}`}>
-                <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <Image
-                    src={project.image}
-                    alt={`Project Image - ${project.title}`}
-                    aria-label={`Project Image - ${project.title}`}
-                    width={400}
-                    height={300}
-                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
-                    unoptimized
+        {/* Main Gallery Layout */}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={activeCategory}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            transition={{ duration: 0.5 }}
+            className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start"
+          >
+            {/* Left: Feature image with counter */}
+            <div className="lg:col-span-8 flex flex-col gap-4">
+              <div
+                className="relative aspect-[16/10] overflow-hidden rounded-lg bg-stone-100 cursor-grab active:cursor-grabbing select-none"
+                ref={trackRef}
+                onMouseDown={handleDragStart}
+                onMouseUp={handleDragEnd}
+                onTouchStart={handleDragStart}
+                onTouchEnd={handleDragEnd}
+              >
+                <AnimatePresence mode="wait">
+                  <motion.div
+                    key={activeIndex}
+                    initial={{ opacity: 0, scale: 1.03 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    exit={{ opacity: 0, scale: 0.98 }}
+                    transition={{ duration: 0.6, ease: [0.25, 0.1, 0.25, 1.0] }}
+                    className="absolute inset-0"
+                  >
+                    <img
+                      src={images[activeIndex].src}
+                      alt={`${category.title} image ${activeIndex + 1}`}
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent" />
+                  </motion.div>
+                </AnimatePresence>
+
+                {/* Navigation Arrows */}
+                <div className="absolute inset-0 flex items-center justify-between px-4 pointer-events-none">
+                  <button
+                    onClick={handlePrev}
+                    className="pointer-events-auto w-10 h-10 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-white/25 transition-all duration-300 focus:outline-none"
+                    aria-label="Previous image"
+                  >
+                    ←
+                  </button>
+                  <button
+                    onClick={handleNext}
+                    className="pointer-events-auto w-10 h-10 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 flex items-center justify-center text-white hover:bg-white/25 transition-all duration-300 focus:outline-none"
+                    aria-label="Next image"
+                  >
+                    →
+                  </button>
+                </div>
+
+                {/* Counter badge */}
+                <div className="absolute bottom-4 right-4 text-white/70 text-xs font-sans tracking-widest">
+                  {String(activeIndex + 1).padStart(2, '0')} / {String(images.length).padStart(2, '0')}
+                </div>
+              </div>
+
+              {/* Thumbnail strip */}
+              <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
+                {images.map((img, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setActiveIndex(i)}
+                    className={`flex-shrink-0 relative w-16 h-12 overflow-hidden rounded transition-all duration-300 focus:outline-none ${i === activeIndex
+                        ? 'ring-2 ring-[#C08B00] ring-offset-1 ring-offset-[#FAF9F6]'
+                        : 'opacity-50 hover:opacity-80'
+                      }`}
+                    aria-label={`View image ${i + 1}`}
+                  >
+                    <img
+                      src={img.src}
+                      alt=""
+                      className="w-full h-full object-cover"
+                    />
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Right: Category info */}
+            <div className="lg:col-span-4 flex flex-col gap-6 lg:pt-4">
+              <div>
+                <span className="editorial-subtitle">{category.label}</span>
+                <h3 className="editorial-title text-2xl md:text-3xl text-[#00494d] mt-2 font-light">
+                  {category.title}
+                </h3>
+                <div className="w-10 h-[1px] bg-[#C08B00] my-4" />
+                <p className="text-stone-600 text-sm leading-relaxed font-sans">
+                  {category.description}
+                </p>
+              </div>
+
+              {/* Progress dots */}
+              <div className="flex flex-wrap gap-1.5 mt-2">
+                {images.map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setActiveIndex(i)}
+                    className={`transition-all duration-300 focus:outline-none rounded-full ${i === activeIndex
+                        ? 'w-6 h-1.5 bg-[#C08B00]'
+                        : 'w-1.5 h-1.5 bg-stone-300 hover:bg-stone-400'
+                      }`}
+                    aria-label={`Go to image ${i + 1}`}
                   />
-                </div>
+                ))}
+              </div>
 
-                <h1>{project.title}</h1>
-                <div className='flex px-1'>
-                  <p>{project.location} |</p>
-                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
-                </div>
+              {/* Category switcher */}
+              <div className="mt-4 flex flex-col gap-2 border-t border-luxury-muted pt-6">
+                <span className="text-xs text-stone-400 tracking-widest uppercase font-sans mb-2">Other Collections</span>
+                {galleryCategories.map((cat, i) => (
+                  i !== activeCategory && (
+                    <button
+                      key={cat.id}
+                      onClick={() => setActiveCategory(i)}
+                      className="flex items-center gap-3 text-left group focus:outline-none"
+                    >
+                      <span className="w-5 h-[1px] bg-stone-300 group-hover:bg-[#C08B00] transition-colors" />
+                      <span className="text-stone-500 text-xs tracking-widest uppercase font-sans group-hover:text-[#00494d] transition-colors">
+                        {cat.label}
+                      </span>
+                    </button>
+                  )
+                ))}
+              </div>
+
+              <Link
+                href="/Portfolio"
+                className="luxury-btn mt-4 self-start"
+              >
+                <span>Full Portfolio</span>
               </Link>
             </div>
-          ))}
-        </div> */}
+          </motion.div>
+        </AnimatePresence>
 
-        {/* <div className='w-[95%] flex justify-end my-2 mx-1'>
-          <Link href="/Residential" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div> */}
-      </div>
-
-      {/* Section 2 */}
-      {/* <div className='w-full h-fit flex flex-col'>
-        <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Smart Workspaces</h1>
-        </div>
-
-        <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {Array.isArray(commercialProjects) && commercialProjects.slice(0,4).map((project) => (
-            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
-              <Link href={`Portfolio/${project.id}`}>
-                <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <Image
-                    src={project.image}
-                    alt={`Project Image - ${project.title}`}
-                    aria-label={`Project Image - ${project.title}`}
-                    width={400}
-                    height={300}
-                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
-                    unoptimized
-                  />
-                </div>
-
-                <h1>{project.title}</h1>
-                <div className='flex px-1'>
-                  <p>{project.location} |</p>
-                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        <div className='w-[95%] flex justify-end my-2 mx-1'>
-          <Link href="/Commercial" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div>
-      </div> */}
-
-      {/* Section 3 */}
-      <div className='w-full h-fit flex flex-col'>
-        <div className='w-full flex justify-end'>
-          <h1 className='text-3xl my-6 mx-3 head'>Stylish Hotels</h1>
-        </div>
-
-        <div className="relative overflow-hidden w-full h-full py-20">
-          <Carousel slides={hotelData} />
-        </div>
-
-        {/* <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {Array.isArray(hospitalityProjects) && hospitalityProjects.slice(0,4).map((project) => (
-            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
-              <Link href={`Portfolio/${project.id}`}>
-                <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <Image
-                    src={project.image}
-                    alt={`Project Image - ${project.title}`}
-                    aria-label={`Project Image - ${project.title}`}
-                    width={400}
-                    height={300}
-                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
-                    unoptimized
-                  />
-                </div>
-
-                <h1>{project.title}</h1>
-                <div className='flex px-1'>
-                  <p>{project.location} |</p>
-                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        <div className='w-[95%] flex justify-end my-2 mx-1'>
-          <Link href="/Hospitality" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div> */}
-      </div>
-
-      {/* Section 4 */}
-      {/* <div className='w-full h-fit flex flex-col'>
-        <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Industrial Spaces</h1>
-        </div>
-
-        <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {Array.isArray(retailProjects) && retailProjects.slice(0,4).map((project) => (
-            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
-              <Link href={`Portfolio/${project.id}`}>
-                <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <Image
-                    src={project.image}
-                    alt={`Project Image - ${project.title}`}
-                    aria-label={`Project Image - ${project.title}`}
-                    width={400}
-                    height={300}
-                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
-                    unoptimized
-                  />
-                </div>
-
-                <h1>{project.title}</h1>
-                <div className='flex px-1'>
-                  <p>{project.location} |</p>
-                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        <div className='w-[95%] flex justify-end my-2 mx-1'>
-          <Link href="/Retail" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div>
-      </div> */}
-
-      {/* Section 5 */}
-      {/* <div className='w-full h-fit flex flex-col'>
-        <div className='w-full flex justify-end'>
-          <h1 className='text-2xl my-6 mx-3 head'>Factories and Industrial Spaces</h1>
-        </div>
-
-        <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {Array.isArray(factoryProjects) && factoryProjects.slice(0,4).map((project) => (
-            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
-              <Link href={`Portfolio/${project.id}`}>
-                <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <Image
-                    src={project.image}
-                    alt={`Project Image - ${project.title}`}
-                    aria-label={`Project Image - ${project.title}`}
-                    width={400}
-                    height={300}
-                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
-                    unoptimized
-                  />
-                </div>
-
-                <h1>{project.title}</h1>
-                <div className='flex px-1'>
-                  <p>{project.location} |</p>
-                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        <div className='w-[95%] flex justify-end my-2 mx-1'>
-          <Link href="/Factories" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div>
-      </div> */}
-
-      {/* Section 6 */}
-      <div className='w-full h-fit flex flex-col'>
-        <div className='w-full flex justify-end'>
-          <h1 className='text-3xl my-6 mx-3 head'>Cozy Cafés & Restaurants</h1>
-        </div>
-
-        <div className="relative overflow-hidden w-full h-full py-20">
-          <Carousel slides={cafeData} />
-        </div>
-
-        {/* <div className='w-full flex flex-wrap justify-center items-center md:gap-5 gap-2 my-2'>
-          {Array.isArray(restaurantProjects) && restaurantProjects.slice(0,4).map((project) => (
-            <div key={project.id} className='md:w-[23%] w-[48%] card3 pb-2'>
-              <Link href={`Portfolio/${project.id}`}>
-                <div className='md:h-[320px] h-[140px] overflow-hidden'>
-                  <Image
-                    src={project.image}
-                    alt={`Project Image - ${project.title}`}
-                    aria-label={`Project Image - ${project.title}`}
-                    width={400}
-                    height={300}
-                    className='w-[100%] md:h-[300px] h-[130px] object-cover'
-                    unoptimized
-                  />
-                </div>
-
-                <h1>{project.title}</h1>
-                <div className='flex px-1'>
-                  <p>{project.location} |</p>
-                  <p>{new Date(`${project.time}-01`).toLocaleString("default", { month: "short", year: "numeric" })}</p>
-                </div>
-              </Link>
-            </div>
-          ))}
-        </div>
-
-        <div className='w-[95%] flex justify-end my-2 mx-1'>
-          <Link href="/Restaurants" className='bg-[#00000080] head3 px-4 py-1 rounded-xl hover:bg-[#000000b2] text-sm'>View More</Link>
-        </div> */}
       </div>
     </div>
   )
 }
-
-export default Projects

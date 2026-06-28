@@ -97,12 +97,12 @@ export default function PortfolioPage() {
         </section>
 
         {/* Dynamic Project Carousel Blocks */}
-        <section className="border-t border-luxury-muted">
+        <section className="bg-[#FAF9F6] border-t border-luxury-muted">
           <Projects />
         </section>
 
         {/* Process Roadmap */}
-        <section className="border-t border-luxury-muted">
+        <section className="bg-[#FAF9F6] border-t border-luxury-muted">
           <Process />
         </section>
 
@@ -112,7 +112,7 @@ export default function PortfolioPage() {
         </section>
 
         {/* Client Trust */}
-        <section className="border-t border-luxury-muted">
+        <section className="bg-[#FAF9F6] border-t border-luxury-muted">
           <Testimonials />
         </section>
 
